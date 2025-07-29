@@ -1,3 +1,4 @@
+// Bug: Zooming removes navbar
 import React, { useEffect, useState } from 'react'
 import { MapContainer, TileLayer, GeoJSON, LayersControl } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
@@ -41,7 +42,7 @@ function Map() {
 
     return (
         <>
-            <button onClick={handleBoundaryToggle} style={{ zIndex: 1000, position: 'absolute', top: 10, left: 10 }}>
+            <button onClick={handleBoundaryToggle} className="map-toggle-button">
                 Toggle: {selectedBoundary === 'municipal' ? 'County' : 'Municipal'}
             </button>
             <MapContainer
@@ -97,29 +98,10 @@ function Map() {
                 )}
 
                 {selectedFeature && (
-                    <div style={{
-                        position: 'absolute',
-                        top: '80px',
-                        right: '20px',
-                        zIndex: 1000,
-                        background: 'white',
-                        border: '2px solid #333',
-                        borderRadius: '10px',
-                        padding: '15px',
-                        boxShadow: '0 0 10px rgba(0,0,0,0.3)',
-                        width: '250px'
-                    }}>
+                    <div className="map-info-box">
                         <h4>{selectedFeature.type}: {selectedFeature.name}</h4>
-                        <p style={{ fontSize: '14px', color: '#666' }}>Not connected to database.</p>
-                        <button onClick={() => setSelectedFeature(null)} style={{
-                            marginTop: '10px',
-                            padding: '5px 10px',
-                            border: 'none',
-                            backgroundColor: '#04A264',
-                            color: 'white',
-                            borderRadius: '5px',
-                            cursor: 'pointer'
-                        }}>
+                        <p>Not connected to database.</p>
+                        <button onClick={() => setSelectedFeature(null)} className="map-close-button">
                             Close
                         </button>
                     </div>

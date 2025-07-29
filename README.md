@@ -14,8 +14,9 @@
 - node.js
 - axios 
 - Leaflet (map)
-- NJ Boundaries API: https://njgin.nj.gov/njgin/edata/boundaries/index.html 
-    - https://services2.arcgis.com/XVOqAjTOJ5P6ngMu/arcgis/rest/services/NJ_Municipal_Boundaries_3424/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson
+- NJ Boundaries API: [NJ Geographic Information Network](https://njgin.nj.gov/njgin/edata/boundaries/index.html)
+    - [Municipal](https://services2.arcgis.com/XVOqAjTOJ5P6ngMu/arcgis/rest/services/NJ_Municipal_Boundaries_3424/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson)
+    - [County](https://services2.arcgis.com/XVOqAjTOJ5P6ngMu/arcgis/rest/services/NJ_Counties_3424/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson)
 
 ## Sources
 - **Research Paper**
