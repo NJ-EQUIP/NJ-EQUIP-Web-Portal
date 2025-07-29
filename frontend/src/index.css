@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: gill-sans, sans-serif;
+    background-color: #04A264;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    background-color: #0a2a1f;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar h1 {
+    font-size: 24px;
+    margin-left: 20px;
+    background-color: #04A264;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
+nav a.data-maps-link {
+    background-color: #04A264;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav a.data-maps-link:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 30px;
+    width: 48%;
+    min-height: 625px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-box {
+    text-align: left;
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+.left-box h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.left-box p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.right-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* ================= About Section styling  =============== */
+.about-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 30px;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.about-container h2 {
+    color: #0a2a1f;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* Collapsible style similar to FAQ */
+.about-item {
+    margin-bottom: 20px;
+}
+
+.about-item h3 {
+    font-size: 20px;
+    color: #0a2a1f;
+    cursor: pointer;
+    transition: color 0.3s;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.about-item h3:hover {
+    color: #04A264;
+}
+
+.about-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    display: none;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ========== Resources Section styling ============= */
+.resources-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 30px;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.resources-container h2 {
+    color: #0a2a1f;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* Collapsible style for resource categories */
+.resource-item {
+    margin-bottom: 20px;
+}
+
+.resource-item h3 {
+    font-size: 20px;
+    color: #0a2a1f;
+    cursor: pointer;
+    transition: color 0.3s;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.resource-item h3:hover {
+    color: #04A264;
+}
+
+.resource-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    display: none;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ======== FAQ Section styling ============= */
+.faq-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 30px;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.faq-container h2 {
+    color: #0a2a1f;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-size: 20px;
+    color: #0a2a1f;
+    cursor: pointer;
+    transition: color 0.3s;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.faq-item h3:hover {
+    color: #04A264;
+}
+
+.faq-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    display: none;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ======== Calculator Section styling ============= */
+.energy-form-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.energy-form-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.energy-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.energy-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0077cc;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.energy-form button:hover {
+  background-color: #005fa3;
+}
+
+.calc-result {
+  margin-top: 1.5rem;
+  background-color: #e9f5ff;
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 5px solid #0077cc;
+}
+
+.calc-result p {
+  margin: 0.5rem 0;
+}
+
+/* === Dashboard Styles === */
+
+
+@media (max-width: 768px) {
+    .box-container {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
