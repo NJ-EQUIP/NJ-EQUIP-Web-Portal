@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useEffect, useState }  from 'react'
 import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet'
 import { bboxPolygon, union, difference } from '@turf/turf'
 import 'leaflet/dist/leaflet.css'
 
-function Map({ geoData }) {
-    //if (!geoData) return null
-    //console.log("GeoData:", geoData)
+function Map() {
+    const [geoData, setGeoData] = useState(null)
+
+    useEffect(() => {
+        fetch('https://services2.arcgis.com/XVOqAjTOJ5P6ngMu/arcgis/rest/services/NJ_Municipal_Boundaries_3424/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson')
+            .then(res => res.json())
+            .then(data => setGeoData(data))
+            .catch(err => console.error('Failed to load GeoJSON:', err))
+    }, [])
+
     return (
         <MapContainer
             center={[40.0583, -74.4057]}
@@ -22,8 +29,7 @@ function Map({ geoData }) {
             />
             {geoData && <GeoJSON data={geoData} />}
         </MapContainer>
-
-    );
+    )
 }
 
 export default Map
