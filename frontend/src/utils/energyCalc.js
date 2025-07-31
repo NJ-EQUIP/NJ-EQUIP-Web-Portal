@@ -2,7 +2,7 @@ export function calculateEnergyBurden(userData, stateData, stateAverageEB) {
     // Zc = Zipcode
     // Ee = annual household electricity con-sumption (kWh)
     // Eh = annual heating (therm/BTU) 
-    // Mi = median household income.
+    // Mi = median household income
   const { Zc, Ee, Eh, Mi } = userData;
   const rates = stateData[Zc];
 
@@ -26,7 +26,7 @@ export function calculateEnergyBurden(userData, stateData, stateAverageEB) {
 
   if (EB > stateAverageEB) {
     message = "Overburdened";
-    display = "👉 [Tips to lower energy burden](#)";
+    display = "[Tips to lower energy burden](#)";
   } else {
     message = "Below State Average";
   }

@@ -1,0 +1,22 @@
+Geography ID,Name,State,Energy Burden (% income),Energy Burden (% income) (Electricity),Energy Burden (% income) (Gas),Energy Burden (% income) (Other),Avg. Annual Energy Cost ($),Avg. Annual Energy Cost ($) (Electricity),Avg. Annual Energy Cost ($) (Gas),Avg. Annual Energy Cost ($) (Other)
+34001,Atlantic County,New Jersey,3,2,1,0,3164,1618,1344,202
+34003,Bergen County,New Jersey,1,1,1,0,2508,1518,884,106
+34005,Burlington County,New Jersey,2,1,1,0,2623,1542,838,243
+34007,Camden County,New Jersey,2,1,1,0,2617,1426,1062,129
+34009,Cape May County,New Jersey,2,1,1,0,2895,1589,1149,157
+34011,Cumberland County,New Jersey,4,2,1,0,3282,1640,1207,435
+34013,Essex County,New Jersey,2,1,1,0,2247,1256,865,126
+34015,Gloucester County,New Jersey,2,1,1,0,3171,1663,1262,246
+34017,Hudson County,New Jersey,1,1,0,0,1537,1017,473,47
+34019,Hunterdon County,New Jersey,2,1,0,1,3547,1592,804,1151
+34021,Mercer County,New Jersey,2,1,1,0,2377,1416,753,208
+34023,Middlesex County,New Jersey,2,1,1,0,2154,1249,789,116
+34025,Monmouth County,New Jersey,2,1,1,0,3069,1391,1539,139
+34027,Morris County,New Jersey,2,1,1,0,2925,1374,951,600
+34029,Ocean County,New Jersey,3,1,1,0,2853,1378,1345,130
+34031,Passaic County,New Jersey,2,1,1,0,2276,1352,778,146
+34033,Salem County,New Jersey,3,2,1,1,3373,1834,858,681
+34035,Somerset County,New Jersey,1,1,0,0,2464,1458,826,180
+34037,Sussex County,New Jersey,3,1,0,1,3754,1495,584,1675
+34039,Union County,New Jersey,2,1,1,0,2186,1110,915,161
+34041,Warren County,New Jersey,3,1,1,1,3056,1372,606,1078

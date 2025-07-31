@@ -14,7 +14,6 @@ function Home() {
                         sustainable energy.</p>
                 </div>
             </div>
-/* Replace Image */
             <div className="box right-box">
                 <img src="https://ik.imagekit.io/clouglobal/img/wp-content/uploads/2023/08/Net-zero-buildings-are-revolutionary-structures-designed-to-achieve-a-state-of-carbon-neutrality-where-the-energy-consumed-is-offset-by-renewable-energy-generation-symbol-image-credit-CLOU-1.jpg" alt="New Jersey County Map" />
             </div>
