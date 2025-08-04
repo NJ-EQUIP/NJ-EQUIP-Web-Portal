@@ -1,3 +1,4 @@
+//Fix CSS for 
 import React from 'react'
 import { Link } from 'react-router-dom'
 
@@ -5,7 +6,8 @@ function Navbar() {
     return (
         <header>
             <div className='navbar'>
-                <h1>NJ-EQUIP</h1>
+                <h1>NJ-EQUIP:</h1>
+                <h3>Energy eQuity User Interavtive Portal</h3>
                 <nav>
                     <ul>
                         <Link to="/">Home</Link>

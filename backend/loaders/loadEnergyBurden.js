@@ -18,4 +18,4 @@ function loadEnergyBurdenCSV(filePath) {
   })
 }
 
-module.exports = loadEnergyBurdenCSV
+module.exports = loadEnergyBurdenCSV 

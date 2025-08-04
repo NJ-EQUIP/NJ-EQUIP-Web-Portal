@@ -7,11 +7,12 @@ import 'leaflet/dist/leaflet.css'
 const municipalURL = 'https://services2.arcgis.com/XVOqAjTOJ5P6ngMu/arcgis/rest/services/NJ_Municipal_Boundaries_3424/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson'
 const countyURL = 'https://services2.arcgis.com/XVOqAjTOJ5P6ngMu/arcgis/rest/services/NJ_Counties_3424/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson'
 
+
 function Map() {
     const [municipalData, setMunicipalData] = useState(null)
     const [countyData, setCountyData] = useState(null)
     //const [maskLayer, setMaskLayer] = useState(null)
-    const [selectedBoundary, setSelectedBoundary] = useState('municipal')
+    const [selectedBoundary, setSelectedBoundary] = useState('county')
     const [selectedFeature, setSelectedFeature] = useState(null)
 
 
