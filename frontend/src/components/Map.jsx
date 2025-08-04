@@ -1,5 +1,6 @@
 // Bug: Zooming removes navbar
-import React, { useEffect, useState } from 'react'
+// Re-organize into loop/state folder to minimize clutter
+import React, { useRef, useEffect, useState } from 'react'
 import { MapContainer, TileLayer, GeoJSON, LayersControl } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 //import * as turf from '@turf/turf'
@@ -7,14 +8,31 @@ import 'leaflet/dist/leaflet.css'
 const municipalURL = 'https://services2.arcgis.com/XVOqAjTOJ5P6ngMu/arcgis/rest/services/NJ_Municipal_Boundaries_3424/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson'
 const countyURL = 'https://services2.arcgis.com/XVOqAjTOJ5P6ngMu/arcgis/rest/services/NJ_Counties_3424/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson'
 
-
 function Map() {
     const [municipalData, setMunicipalData] = useState(null)
     const [countyData, setCountyData] = useState(null)
     //const [maskLayer, setMaskLayer] = useState(null)
     const [selectedBoundary, setSelectedBoundary] = useState('county')
     const [selectedFeature, setSelectedFeature] = useState(null)
+    // Data
+    const [countyInfo, setCountyInfo] = useState(null)
+    const [selectedDataset, setSelectedDataset] = useState('energy-burden')
+    const selectedDatasetRef = useRef(selectedDataset)
+    const [selectedYear, setSelectedYear] = useState('2023')
 
+    useEffect(() => {
+        selectedDatasetRef.current = selectedDataset;
+    }, [selectedDataset]);
+
+    const datasetOptions = [
+        'energy-burden',
+        'housing-built-year',
+        'heating-fuel',
+        'njcep-savings',
+        'tenure-type',
+        'race-ethnicity',
+        'income'
+    ]
 
     useEffect(() => {
         fetch(municipalURL)
@@ -41,11 +59,33 @@ function Map() {
         setSelectedBoundary(prev => (prev === 'municipal' ? 'county' : 'municipal'))
     }
 
+    useEffect(() => {
+        if (!selectedFeature || selectedFeature.type !== 'County') return
+
+        const fetchCountyData = async () => {
+            setCountyInfo(null)
+            const dataset = selectedDatasetRef.current
+            try {
+                const response = await fetch(
+                    `http://localhost:5050/api/county-filters/${dataset}?county=${encodeURIComponent(selectedFeature.name)}&year=${selectedYear}`
+                )
+                const data = await response.json()
+                setCountyInfo(data)
+            } catch (err) {
+                console.error('Failed to load county info:', err)
+                setCountyInfo({ error: 'Failed to fetch data' })
+            }
+        }
+
+        fetchCountyData()
+    }, [selectedFeature, selectedDataset, selectedYear])
+
     return (
         <>
             <button onClick={handleBoundaryToggle} className="map-toggle-button">
                 Toggle: {selectedBoundary === 'municipal' ? 'County' : 'Municipal'}
             </button>
+
             <MapContainer
                 center={[40.0583, -74.4057]}
                 zoom={7}
@@ -59,24 +99,23 @@ function Map() {
                     attribution='&copy; CartoDB'
                     url='https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png'
                 />
-                {/* Display chosen boundary */}
+
                 {selectedBoundary === 'municipal' && municipalData && (
                     <GeoJSON
                         data={municipalData}
                         style={{ color: '#0077cc', weight: 1 }}
                         onEachFeature={(feature, layer) => {
-                            const name = feature.properties?.MUNICIPALITY || feature.properties?.NAME;
+                            const name = feature.properties?.MUNICIPALITY || feature.properties?.NAME
                             layer.bindTooltip(name, {
                                 sticky: true,
                                 direction: 'top',
                                 opacity: 0.9
-                            });
+                            })
                             layer.on({
-                                click: () => setSelectedFeature({ type: 'Municipality', name }),
+                                click: () => setSelectedFeature({ type: 'Municipality', name })
                             })
                         }}
                     />
-
                 )}
 
                 {selectedBoundary === 'county' && countyData && (
@@ -84,31 +123,85 @@ function Map() {
                         data={countyData}
                         style={{ color: '#cc3300', weight: 2 }}
                         onEachFeature={(feature, layer) => {
-                            const name = feature.properties?.COUNTY || feature.properties?.NAME;
+                            const name = feature.properties?.COUNTY || feature.properties?.NAME
                             layer.bindTooltip(name, {
                                 sticky: true,
                                 direction: 'top',
                                 opacity: 0.9
-                            });
+                            })
                             layer.on({
-                                click: () => setSelectedFeature({ type: 'County', name }),
+                                click: () => {
+                                    setSelectedFeature({ type: 'County', name })
+                                    setCountyInfo(null)
+                                }
                             })
                         }}
                     />
-
                 )}
-
-                {selectedFeature && (
-                    <div className="map-info-box">
-                        <h4>{selectedFeature.type}: {selectedFeature.name}</h4>
-                        <p>Not connected to database.</p>
-                        <button onClick={() => setSelectedFeature(null)} className="map-close-button">
-                            Close
-                        </button>
-                    </div>
-                )}
-
             </MapContainer>
+
+            {/* Always-visible Info Box */}
+            <div className="map-info-box">
+                {selectedFeature?.type === 'County' ? (
+                    <>
+                        <h4>County: {selectedFeature.name}</h4>
+
+                        <label>
+                            Dataset:&nbsp;
+                            <select value={selectedDataset} onChange={(e) => setSelectedDataset(e.target.value)}>
+                                {datasetOptions.map((option) => (
+                                    <option key={option} value={option}>
+                                        {option.replace(/-/g, ' ')}
+                                    </option>
+                                ))}
+                            </select>
+                        </label>
+
+                        <label style={{ marginLeft: '10px' }}>
+                            Year:&nbsp;
+                            <select value={selectedYear} onChange={(e) => setSelectedYear(e.target.value)}>
+                                {Array.from({ length: 2023 - 2009 + 1 }, (_, i) => 2009 + i).map((year) => (
+                                    <option key={year} value={year}>
+                                        {year}
+                                    </option>
+                                ))}
+                            </select>
+                        </label>
+
+                        <h5 style={{ marginTop: '10px' }}>
+                            {selectedDataset.replace(/-/g, ' ').toUpperCase()} – {selectedYear}
+                        </h5>
+
+                        {countyInfo ? (
+                            Array.isArray(countyInfo) && countyInfo.length > 0 ? (
+                                <ul>
+                                    {Object.entries(countyInfo[0]).map(([key, value]) => (
+                                        <li key={key}>
+                                            <strong>{key}:</strong> {value}
+                                        </li>
+                                    ))}
+                                </ul>
+                            ) : (
+                                <p>No data found for this county.</p>
+                            )
+                        ) : (
+                            <p>Loading data...</p>
+                        )}
+
+                        <button
+                            onClick={() => {
+                                setSelectedFeature(null)
+                                setCountyInfo(null)
+                            }}
+                            className="map-close-button"
+                        >
+                            Clear
+                        </button>
+                    </>
+                ) : (
+                    <p><strong>Use Map</strong> to view filters and data.</p>
+                )}
+            </div>
         </>
     )
 }
