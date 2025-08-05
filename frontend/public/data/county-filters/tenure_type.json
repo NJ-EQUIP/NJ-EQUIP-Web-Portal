@@ -1,0 +1,2004 @@
+[
+  {
+    "Year": "2010",
+    "County": "Atlantic County",
+    "Total:": "100,096",
+    "    Owner occupied": "73,515",
+    "    Renter occupied": "26,581"
+  },
+  {
+    "Year": "2010",
+    "County": "Bergen County",
+    "Total:": "333,002",
+    "    Owner occupied": "220,179",
+    "    Renter occupied": "112,823"
+  },
+  {
+    "Year": "2010",
+    "County": "Burlington County",
+    "Total:": "163,961",
+    "    Owner occupied": "129,352",
+    "    Renter occupied": "34,609"
+  },
+  {
+    "Year": "2010",
+    "County": "Camden County",
+    "Total:": "189,895",
+    "    Owner occupied": "127,365",
+    "    Renter occupied": "62,530"
+  },
+  {
+    "Year": "2010",
+    "County": "Cape May County",
+    "Total:": "42,763",
+    "    Owner occupied": "32,537",
+    "    Renter occupied": "10,226"
+  },
+  {
+    "Year": "2010",
+    "County": "Cumberland County",
+    "Total:": "50,237",
+    "    Owner occupied": "33,219",
+    "    Renter occupied": "17,018"
+  },
+  {
+    "Year": "2010",
+    "County": "Essex County",
+    "Total:": "275,417",
+    "    Owner occupied": "127,663",
+    "    Renter occupied": "147,754"
+  },
+  {
+    "Year": "2010",
+    "County": "Gloucester County",
+    "Total:": "104,782",
+    "    Owner occupied": "83,913",
+    "    Renter occupied": "20,869"
+  },
+  {
+    "Year": "2010",
+    "County": "Hudson County",
+    "Total:": "238,692",
+    "    Owner occupied": "80,579",
+    "    Renter occupied": "158,113"
+  },
+  {
+    "Year": "2010",
+    "County": "Hunterdon County",
+    "Total:": "47,550",
+    "    Owner occupied": "40,191",
+    "    Renter occupied": "7,359"
+  },
+  {
+    "Year": "2010",
+    "County": "Mercer County",
+    "Total:": "131,500",
+    "    Owner occupied": "88,812",
+    "    Renter occupied": "42,688"
+  },
+  {
+    "Year": "2010",
+    "County": "Middlesex County",
+    "Total:": "278,877",
+    "    Owner occupied": "185,748",
+    "    Renter occupied": "93,129"
+  },
+  {
+    "Year": "2010",
+    "County": "Monmouth County",
+    "Total:": "234,582",
+    "    Owner occupied": "176,443",
+    "    Renter occupied": "58,139"
+  },
+  {
+    "Year": "2010",
+    "County": "Morris County",
+    "Total:": "177,786",
+    "    Owner occupied": "137,596",
+    "    Renter occupied": "40,190"
+  },
+  {
+    "Year": "2010",
+    "County": "New Jersey",
+    "Total:": "3,172,421",
+    "    Owner occupied": "2,106,728",
+    "    Renter occupied": "1,065,693"
+  },
+  {
+    "Year": "2010",
+    "County": "Ocean County",
+    "Total:": "220,972",
+    "    Owner occupied": "180,097",
+    "    Renter occupied": "40,875"
+  },
+  {
+    "Year": "2010",
+    "County": "Passaic County",
+    "Total:": "161,527",
+    "    Owner occupied": "87,721",
+    "    Renter occupied": "73,806"
+  },
+  {
+    "Year": "2010",
+    "County": "Salem County",
+    "Total:": "24,898",
+    "    Owner occupied": "17,356",
+    "    Renter occupied": "7,542"
+  },
+  {
+    "Year": "2010",
+    "County": "Somerset County",
+    "Total:": "115,913",
+    "    Owner occupied": "93,582",
+    "    Renter occupied": "22,331"
+  },
+  {
+    "Year": "2010",
+    "County": "Sussex County",
+    "Total:": "54,881",
+    "    Owner occupied": "46,489",
+    "    Renter occupied": "8,392"
+  },
+  {
+    "Year": "2010",
+    "County": "Union County",
+    "Total:": "183,882",
+    "    Owner occupied": "112,626",
+    "    Renter occupied": "71,256"
+  },
+  {
+    "Year": "2010",
+    "County": "Warren County",
+    "Total:": "41,208",
+    "    Owner occupied": "31,745",
+    "    Renter occupied": "9,463"
+  },
+  {
+    "Year": "2011",
+    "County": "Atlantic County",
+    "Total:": "99,762",
+    "    Owner occupied": "66,755",
+    "    Renter occupied": "33,007"
+  },
+  {
+    "Year": "2011",
+    "County": "Bergen County",
+    "Total:": "329,544",
+    "    Owner occupied": "212,148",
+    "    Renter occupied": "117,396"
+  },
+  {
+    "Year": "2011",
+    "County": "Burlington County",
+    "Total:": "164,760",
+    "    Owner occupied": "127,371",
+    "    Renter occupied": "37,389"
+  },
+  {
+    "Year": "2011",
+    "County": "Camden County",
+    "Total:": "185,691",
+    "    Owner occupied": "125,784",
+    "    Renter occupied": "59,907"
+  },
+  {
+    "Year": "2011",
+    "County": "Cape May County",
+    "Total:": "41,082",
+    "    Owner occupied": "30,796",
+    "    Renter occupied": "10,286"
+  },
+  {
+    "Year": "2011",
+    "County": "Cumberland County",
+    "Total:": "49,716",
+    "    Owner occupied": "34,269",
+    "    Renter occupied": "15,447"
+  },
+  {
+    "Year": "2011",
+    "County": "Essex County",
+    "Total:": "273,399",
+    "    Owner occupied": "123,007",
+    "    Renter occupied": "150,392"
+  },
+  {
+    "Year": "2011",
+    "County": "Gloucester County",
+    "Total:": "103,725",
+    "    Owner occupied": "82,427",
+    "    Renter occupied": "21,298"
+  },
+  {
+    "Year": "2011",
+    "County": "Hudson County",
+    "Total:": "243,850",
+    "    Owner occupied": "79,974",
+    "    Renter occupied": "163,876"
+  },
+  {
+    "Year": "2011",
+    "County": "Hunterdon County",
+    "Total:": "46,741",
+    "    Owner occupied": "39,847",
+    "    Renter occupied": "6,894"
+  },
+  {
+    "Year": "2011",
+    "County": "Mercer County",
+    "Total:": "130,756",
+    "    Owner occupied": "85,864",
+    "    Renter occupied": "44,892"
+  },
+  {
+    "Year": "2011",
+    "County": "Middlesex County",
+    "Total:": "278,920",
+    "    Owner occupied": "181,221",
+    "    Renter occupied": "97,699"
+  },
+  {
+    "Year": "2011",
+    "County": "Monmouth County",
+    "Total:": "231,198",
+    "    Owner occupied": "175,250",
+    "    Renter occupied": "55,948"
+  },
+  {
+    "Year": "2011",
+    "County": "Morris County",
+    "Total:": "182,745",
+    "    Owner occupied": "135,385",
+    "    Renter occupied": "47,360"
+  },
+  {
+    "Year": "2011",
+    "County": "New Jersey",
+    "Total:": "3,167,629",
+    "    Owner occupied": "2,060,480",
+    "    Renter occupied": "1,107,149"
+  },
+  {
+    "Year": "2011",
+    "County": "Ocean County",
+    "Total:": "222,079",
+    "    Owner occupied": "177,659",
+    "    Renter occupied": "44,420"
+  },
+  {
+    "Year": "2011",
+    "County": "Passaic County",
+    "Total:": "163,192",
+    "    Owner occupied": "87,579",
+    "    Renter occupied": "75,613"
+  },
+  {
+    "Year": "2011",
+    "County": "Salem County",
+    "Total:": "24,656",
+    "    Owner occupied": "17,534",
+    "    Renter occupied": "7,122"
+  },
+  {
+    "Year": "2011",
+    "County": "Somerset County",
+    "Total:": "114,323",
+    "    Owner occupied": "87,589",
+    "    Renter occupied": "26,734"
+  },
+  {
+    "Year": "2011",
+    "County": "Sussex County",
+    "Total:": "54,746",
+    "    Owner occupied": "45,764",
+    "    Renter occupied": "8,982"
+  },
+  {
+    "Year": "2011",
+    "County": "Union County",
+    "Total:": "184,598",
+    "    Owner occupied": "111,620",
+    "    Renter occupied": "72,978"
+  },
+  {
+    "Year": "2011",
+    "County": "Warren County",
+    "Total:": "42,146",
+    "    Owner occupied": "32,637",
+    "    Renter occupied": "9,509"
+  },
+  {
+    "Year": "2012",
+    "County": "Atlantic County",
+    "Total:": "100,065",
+    "    Owner occupied": "64,897",
+    "    Renter occupied": "35,168"
+  },
+  {
+    "Year": "2012",
+    "County": "Bergen County",
+    "Total:": "336,856",
+    "    Owner occupied": "219,807",
+    "    Renter occupied": "117,049"
+  },
+  {
+    "Year": "2012",
+    "County": "Burlington County",
+    "Total:": "164,819",
+    "    Owner occupied": "126,351",
+    "    Renter occupied": "38,468"
+  },
+  {
+    "Year": "2012",
+    "County": "Camden County",
+    "Total:": "185,477",
+    "    Owner occupied": "126,421",
+    "    Renter occupied": "59,056"
+  },
+  {
+    "Year": "2012",
+    "County": "Cape May County",
+    "Total:": "40,470",
+    "    Owner occupied": "29,689",
+    "    Renter occupied": "10,781"
+  },
+  {
+    "Year": "2012",
+    "County": "Cumberland County",
+    "Total:": "50,068",
+    "    Owner occupied": "34,006",
+    "    Renter occupied": "16,062"
+  },
+  {
+    "Year": "2012",
+    "County": "Essex County",
+    "Total:": "279,102",
+    "    Owner occupied": "126,170",
+    "    Renter occupied": "152,932"
+  },
+  {
+    "Year": "2012",
+    "County": "Gloucester County",
+    "Total:": "104,691",
+    "    Owner occupied": "85,156",
+    "    Renter occupied": "19,535"
+  },
+  {
+    "Year": "2012",
+    "County": "Hudson County",
+    "Total:": "249,028",
+    "    Owner occupied": "79,888",
+    "    Renter occupied": "169,140"
+  },
+  {
+    "Year": "2012",
+    "County": "Hunterdon County",
+    "Total:": "47,227",
+    "    Owner occupied": "38,620",
+    "    Renter occupied": "8,607"
+  },
+  {
+    "Year": "2012",
+    "County": "Mercer County",
+    "Total:": "132,004",
+    "    Owner occupied": "86,024",
+    "    Renter occupied": "45,980"
+  },
+  {
+    "Year": "2012",
+    "County": "Middlesex County",
+    "Total:": "283,337",
+    "    Owner occupied": "187,331",
+    "    Renter occupied": "96,006"
+  },
+  {
+    "Year": "2012",
+    "County": "Monmouth County",
+    "Total:": "236,447",
+    "    Owner occupied": "177,977",
+    "    Renter occupied": "58,470"
+  },
+  {
+    "Year": "2012",
+    "County": "Morris County",
+    "Total:": "179,876",
+    "    Owner occupied": "136,458",
+    "    Renter occupied": "43,418"
+  },
+  {
+    "Year": "2012",
+    "County": "New Jersey",
+    "Total:": "3,198,799",
+    "    Owner occupied": "2,081,481",
+    "    Renter occupied": "1,117,318"
+  },
+  {
+    "Year": "2012",
+    "County": "Ocean County",
+    "Total:": "223,599",
+    "    Owner occupied": "182,764",
+    "    Renter occupied": "40,835"
+  },
+  {
+    "Year": "2012",
+    "County": "Passaic County",
+    "Total:": "163,712",
+    "    Owner occupied": "86,544",
+    "    Renter occupied": "77,168"
+  },
+  {
+    "Year": "2012",
+    "County": "Salem County",
+    "Total:": "24,861",
+    "    Owner occupied": "17,598",
+    "    Renter occupied": "7,263"
+  },
+  {
+    "Year": "2012",
+    "County": "Somerset County",
+    "Total:": "116,840",
+    "    Owner occupied": "89,911",
+    "    Renter occupied": "26,929"
+  },
+  {
+    "Year": "2012",
+    "County": "Sussex County",
+    "Total:": "54,179",
+    "    Owner occupied": "46,098",
+    "    Renter occupied": "8,081"
+  },
+  {
+    "Year": "2012",
+    "County": "Union County",
+    "Total:": "184,879",
+    "    Owner occupied": "109,258",
+    "    Renter occupied": "75,621"
+  },
+  {
+    "Year": "2012",
+    "County": "Warren County",
+    "Total:": "41,262",
+    "    Owner occupied": "30,513",
+    "    Renter occupied": "10,749"
+  },
+  {
+    "Year": "2013",
+    "County": "Atlantic County",
+    "Total:": "101,721",
+    "    Owner occupied": "67,645",
+    "    Renter occupied": "34,076"
+  },
+  {
+    "Year": "2013",
+    "County": "Bergen County",
+    "Total:": "338,063",
+    "    Owner occupied": "218,300",
+    "    Renter occupied": "119,763"
+  },
+  {
+    "Year": "2013",
+    "County": "Burlington County",
+    "Total:": "162,245",
+    "    Owner occupied": "127,368",
+    "    Renter occupied": "34,877"
+  },
+  {
+    "Year": "2013",
+    "County": "Camden County",
+    "Total:": "185,774",
+    "    Owner occupied": "122,583",
+    "    Renter occupied": "63,191"
+  },
+  {
+    "Year": "2013",
+    "County": "Cape May County",
+    "Total:": "38,210",
+    "    Owner occupied": "30,288",
+    "    Renter occupied": "7,922"
+  },
+  {
+    "Year": "2013",
+    "County": "Cumberland County",
+    "Total:": "50,066",
+    "    Owner occupied": "31,524",
+    "    Renter occupied": "18,542"
+  },
+  {
+    "Year": "2013",
+    "County": "Essex County",
+    "Total:": "277,102",
+    "    Owner occupied": "124,505",
+    "    Renter occupied": "152,597"
+  },
+  {
+    "Year": "2013",
+    "County": "Gloucester County",
+    "Total:": "103,864",
+    "    Owner occupied": "80,754",
+    "    Renter occupied": "23,110"
+  },
+  {
+    "Year": "2013",
+    "County": "Hudson County",
+    "Total:": "247,490",
+    "    Owner occupied": "75,428",
+    "    Renter occupied": "172,062"
+  },
+  {
+    "Year": "2013",
+    "County": "Hunterdon County",
+    "Total:": "45,792",
+    "    Owner occupied": "39,090",
+    "    Renter occupied": "6,702"
+  },
+  {
+    "Year": "2013",
+    "County": "Mercer County",
+    "Total:": "131,623",
+    "    Owner occupied": "84,223",
+    "    Renter occupied": "47,400"
+  },
+  {
+    "Year": "2013",
+    "County": "Middlesex County",
+    "Total:": "283,211",
+    "    Owner occupied": "179,511",
+    "    Renter occupied": "103,700"
+  },
+  {
+    "Year": "2013",
+    "County": "Monmouth County",
+    "Total:": "232,158",
+    "    Owner occupied": "171,083",
+    "    Renter occupied": "61,075"
+  },
+  {
+    "Year": "2013",
+    "County": "Morris County",
+    "Total:": "178,951",
+    "    Owner occupied": "135,135",
+    "    Renter occupied": "43,816"
+  },
+  {
+    "Year": "2013",
+    "County": "New Jersey",
+    "Total:": "3,176,139",
+    "    Owner occupied": "2,034,223",
+    "    Renter occupied": "1,141,916"
+  },
+  {
+    "Year": "2013",
+    "County": "Ocean County",
+    "Total:": "217,698",
+    "    Owner occupied": "174,290",
+    "    Renter occupied": "43,408"
+  },
+  {
+    "Year": "2013",
+    "County": "Passaic County",
+    "Total:": "161,331",
+    "    Owner occupied": "86,520",
+    "    Renter occupied": "74,811"
+  },
+  {
+    "Year": "2013",
+    "County": "Salem County",
+    "Total:": "24,280",
+    "    Owner occupied": "17,055",
+    "    Renter occupied": "7,225"
+  },
+  {
+    "Year": "2013",
+    "County": "Somerset County",
+    "Total:": "112,974",
+    "    Owner occupied": "87,926",
+    "    Renter occupied": "25,048"
+  },
+  {
+    "Year": "2013",
+    "County": "Sussex County",
+    "Total:": "54,765",
+    "    Owner occupied": "45,727",
+    "    Renter occupied": "9,038"
+  },
+  {
+    "Year": "2013",
+    "County": "Union County",
+    "Total:": "186,951",
+    "    Owner occupied": "106,359",
+    "    Renter occupied": "80,592"
+  },
+  {
+    "Year": "2013",
+    "County": "Warren County",
+    "Total:": "41,870",
+    "    Owner occupied": "28,909",
+    "    Renter occupied": "12,961"
+  },
+  {
+    "Year": "2014",
+    "County": "Atlantic County",
+    "Total:": "101,937",
+    "    Owner occupied": "67,981",
+    "    Renter occupied": "33,956"
+  },
+  {
+    "Year": "2014",
+    "County": "Bergen County",
+    "Total:": "337,469",
+    "    Owner occupied": "212,605",
+    "    Renter occupied": "124,864"
+  },
+  {
+    "Year": "2014",
+    "County": "Burlington County",
+    "Total:": "165,424",
+    "    Owner occupied": "124,823",
+    "    Renter occupied": "40,601"
+  },
+  {
+    "Year": "2014",
+    "County": "Camden County",
+    "Total:": "188,064",
+    "    Owner occupied": "125,909",
+    "    Renter occupied": "62,155"
+  },
+  {
+    "Year": "2014",
+    "County": "Cape May County",
+    "Total:": "40,779",
+    "    Owner occupied": "30,995",
+    "    Renter occupied": "9,784"
+  },
+  {
+    "Year": "2014",
+    "County": "Cumberland County",
+    "Total:": "50,593",
+    "    Owner occupied": "31,321",
+    "    Renter occupied": "19,272"
+  },
+  {
+    "Year": "2014",
+    "County": "Essex County",
+    "Total:": "277,735",
+    "    Owner occupied": "121,379",
+    "    Renter occupied": "156,356"
+  },
+  {
+    "Year": "2014",
+    "County": "Gloucester County",
+    "Total:": "104,305",
+    "    Owner occupied": "81,414",
+    "    Renter occupied": "22,891"
+  },
+  {
+    "Year": "2014",
+    "County": "Hudson County",
+    "Total:": "253,300",
+    "    Owner occupied": "74,355",
+    "    Renter occupied": "178,945"
+  },
+  {
+    "Year": "2014",
+    "County": "Hunterdon County",
+    "Total:": "47,387",
+    "    Owner occupied": "39,485",
+    "    Renter occupied": "7,902"
+  },
+  {
+    "Year": "2014",
+    "County": "Mercer County",
+    "Total:": "131,564",
+    "    Owner occupied": "83,605",
+    "    Renter occupied": "47,959"
+  },
+  {
+    "Year": "2014",
+    "County": "Middlesex County",
+    "Total:": "282,860",
+    "    Owner occupied": "176,428",
+    "    Renter occupied": "106,432"
+  },
+  {
+    "Year": "2014",
+    "County": "Monmouth County",
+    "Total:": "230,391",
+    "    Owner occupied": "168,331",
+    "    Renter occupied": "62,060"
+  },
+  {
+    "Year": "2014",
+    "County": "Morris County",
+    "Total:": "179,654",
+    "    Owner occupied": "132,204",
+    "    Renter occupied": "47,450"
+  },
+  {
+    "Year": "2014",
+    "County": "New Jersey",
+    "Total:": "3,194,844",
+    "    Owner occupied": "2,021,062",
+    "    Renter occupied": "1,173,782"
+  },
+  {
+    "Year": "2014",
+    "County": "Ocean County",
+    "Total:": "220,941",
+    "    Owner occupied": "177,605",
+    "    Renter occupied": "43,336"
+  },
+  {
+    "Year": "2014",
+    "County": "Passaic County",
+    "Total:": "159,309",
+    "    Owner occupied": "84,257",
+    "    Renter occupied": "75,052"
+  },
+  {
+    "Year": "2014",
+    "County": "Salem County",
+    "Total:": "23,832",
+    "    Owner occupied": "16,773",
+    "    Renter occupied": "7,059"
+  },
+  {
+    "Year": "2014",
+    "County": "Somerset County",
+    "Total:": "117,482",
+    "    Owner occupied": "86,722",
+    "    Renter occupied": "30,760"
+  },
+  {
+    "Year": "2014",
+    "County": "Sussex County",
+    "Total:": "54,174",
+    "    Owner occupied": "44,936",
+    "    Renter occupied": "9,238"
+  },
+  {
+    "Year": "2014",
+    "County": "Union County",
+    "Total:": "186,037",
+    "    Owner occupied": "110,224",
+    "    Renter occupied": "75,813"
+  },
+  {
+    "Year": "2014",
+    "County": "Warren County",
+    "Total:": "41,607",
+    "    Owner occupied": "29,710",
+    "    Renter occupied": "11,897"
+  },
+  {
+    "Year": "2015",
+    "County": "Atlantic County",
+    "Total:": "101,813",
+    "    Owner occupied": "69,152",
+    "    Renter occupied": "32,661"
+  },
+  {
+    "Year": "2015",
+    "County": "Bergen County",
+    "Total:": "336,675",
+    "    Owner occupied": "217,086",
+    "    Renter occupied": "119,589"
+  },
+  {
+    "Year": "2015",
+    "County": "Burlington County",
+    "Total:": "163,505",
+    "    Owner occupied": "119,488",
+    "    Renter occupied": "44,017"
+  },
+  {
+    "Year": "2015",
+    "County": "Camden County",
+    "Total:": "185,113",
+    "    Owner occupied": "123,985",
+    "    Renter occupied": "61,128"
+  },
+  {
+    "Year": "2015",
+    "County": "Cape May County",
+    "Total:": "38,708",
+    "    Owner occupied": "29,608",
+    "    Renter occupied": "9,100"
+  },
+  {
+    "Year": "2015",
+    "County": "Cumberland County",
+    "Total:": "50,380",
+    "    Owner occupied": "32,877",
+    "    Renter occupied": "17,503"
+  },
+  {
+    "Year": "2015",
+    "County": "Essex County",
+    "Total:": "279,874",
+    "    Owner occupied": "118,393",
+    "    Renter occupied": "161,481"
+  },
+  {
+    "Year": "2015",
+    "County": "Gloucester County",
+    "Total:": "103,876",
+    "    Owner occupied": "81,254",
+    "    Renter occupied": "22,622"
+  },
+  {
+    "Year": "2015",
+    "County": "Hudson County",
+    "Total:": "255,508",
+    "    Owner occupied": "76,341",
+    "    Renter occupied": "179,167"
+  },
+  {
+    "Year": "2015",
+    "County": "Hunterdon County",
+    "Total:": "47,057",
+    "    Owner occupied": "38,827",
+    "    Renter occupied": "8,230"
+  },
+  {
+    "Year": "2015",
+    "County": "Mercer County",
+    "Total:": "127,965",
+    "    Owner occupied": "80,484",
+    "    Renter occupied": "47,481"
+  },
+  {
+    "Year": "2015",
+    "County": "Middlesex County",
+    "Total:": "280,855",
+    "    Owner occupied": "174,162",
+    "    Renter occupied": "106,693"
+  },
+  {
+    "Year": "2015",
+    "County": "Monmouth County",
+    "Total:": "234,365",
+    "    Owner occupied": "172,172",
+    "    Renter occupied": "62,193"
+  },
+  {
+    "Year": "2015",
+    "County": "Morris County",
+    "Total:": "179,480",
+    "    Owner occupied": "133,438",
+    "    Renter occupied": "46,042"
+  },
+  {
+    "Year": "2015",
+    "County": "New Jersey",
+    "Total:": "3,187,963",
+    "    Owner occupied": "2,009,034",
+    "    Renter occupied": "1,178,929"
+  },
+  {
+    "Year": "2015",
+    "County": "Ocean County",
+    "Total:": "222,497",
+    "    Owner occupied": "174,878",
+    "    Renter occupied": "47,619"
+  },
+  {
+    "Year": "2015",
+    "County": "Passaic County",
+    "Total:": "157,309",
+    "    Owner occupied": "82,502",
+    "    Renter occupied": "74,807"
+  },
+  {
+    "Year": "2015",
+    "County": "Salem County",
+    "Total:": "22,747",
+    "    Owner occupied": "17,188",
+    "    Renter occupied": "5,559"
+  },
+  {
+    "Year": "2015",
+    "County": "Somerset County",
+    "Total:": "117,198",
+    "    Owner occupied": "87,249",
+    "    Renter occupied": "29,949"
+  },
+  {
+    "Year": "2015",
+    "County": "Sussex County",
+    "Total:": "53,190",
+    "    Owner occupied": "43,479",
+    "    Renter occupied": "9,711"
+  },
+  {
+    "Year": "2015",
+    "County": "Union County",
+    "Total:": "188,035",
+    "    Owner occupied": "107,462",
+    "    Renter occupied": "80,573"
+  },
+  {
+    "Year": "2015",
+    "County": "Warren County",
+    "Total:": "41,813",
+    "    Owner occupied": "29,009",
+    "    Renter occupied": "12,804"
+  },
+  {
+    "Year": "2016",
+    "County": "Atlantic County",
+    "Total:": "96,777",
+    "    Owner occupied": "65,459",
+    "    Renter occupied": "31,318"
+  },
+  {
+    "Year": "2016",
+    "County": "Bergen County",
+    "Total:": "337,227",
+    "    Owner occupied": "214,790",
+    "    Renter occupied": "122,437"
+  },
+  {
+    "Year": "2016",
+    "County": "Burlington County",
+    "Total:": "165,862",
+    "    Owner occupied": "125,711",
+    "    Renter occupied": "40,151"
+  },
+  {
+    "Year": "2016",
+    "County": "Camden County",
+    "Total:": "185,512",
+    "    Owner occupied": "125,281",
+    "    Renter occupied": "60,231"
+  },
+  {
+    "Year": "2016",
+    "County": "Cape May County",
+    "Total:": "38,895",
+    "    Owner occupied": "29,822",
+    "    Renter occupied": "9,073"
+  },
+  {
+    "Year": "2016",
+    "County": "Cumberland County",
+    "Total:": "50,787",
+    "    Owner occupied": "30,879",
+    "    Renter occupied": "19,908"
+  },
+  {
+    "Year": "2016",
+    "County": "Essex County",
+    "Total:": "280,734",
+    "    Owner occupied": "119,868",
+    "    Renter occupied": "160,866"
+  },
+  {
+    "Year": "2016",
+    "County": "Gloucester County",
+    "Total:": "105,436",
+    "    Owner occupied": "82,966",
+    "    Renter occupied": "22,470"
+  },
+  {
+    "Year": "2016",
+    "County": "Hudson County",
+    "Total:": "253,321",
+    "    Owner occupied": "77,485",
+    "    Renter occupied": "175,836"
+  },
+  {
+    "Year": "2016",
+    "County": "Hunterdon County",
+    "Total:": "47,195",
+    "    Owner occupied": "39,579",
+    "    Renter occupied": "7,616"
+  },
+  {
+    "Year": "2016",
+    "County": "Mercer County",
+    "Total:": "128,332",
+    "    Owner occupied": "80,834",
+    "    Renter occupied": "47,498"
+  },
+  {
+    "Year": "2016",
+    "County": "Middlesex County",
+    "Total:": "283,661",
+    "    Owner occupied": "179,257",
+    "    Renter occupied": "104,404"
+  },
+  {
+    "Year": "2016",
+    "County": "Monmouth County",
+    "Total:": "230,769",
+    "    Owner occupied": "166,208",
+    "    Renter occupied": "64,561"
+  },
+  {
+    "Year": "2016",
+    "County": "Morris County",
+    "Total:": "181,059",
+    "    Owner occupied": "136,087",
+    "    Renter occupied": "44,972"
+  },
+  {
+    "Year": "2016",
+    "County": "New Jersey",
+    "Total:": "3,194,519",
+    "    Owner occupied": "2,019,927",
+    "    Renter occupied": "1,174,592"
+  },
+  {
+    "Year": "2016",
+    "County": "Ocean County",
+    "Total:": "224,308",
+    "    Owner occupied": "175,845",
+    "    Renter occupied": "48,463"
+  },
+  {
+    "Year": "2016",
+    "County": "Passaic County",
+    "Total:": "163,868",
+    "    Owner occupied": "83,895",
+    "    Renter occupied": "79,973"
+  },
+  {
+    "Year": "2016",
+    "County": "Salem County",
+    "Total:": "24,195",
+    "    Owner occupied": "16,273",
+    "    Renter occupied": "7,922"
+  },
+  {
+    "Year": "2016",
+    "County": "Somerset County",
+    "Total:": "116,169",
+    "    Owner occupied": "86,798",
+    "    Renter occupied": "29,371"
+  },
+  {
+    "Year": "2016",
+    "County": "Sussex County",
+    "Total:": "51,978",
+    "    Owner occupied": "42,561",
+    "    Renter occupied": "9,417"
+  },
+  {
+    "Year": "2016",
+    "County": "Union County",
+    "Total:": "187,922",
+    "    Owner occupied": "110,760",
+    "    Renter occupied": "77,162"
+  },
+  {
+    "Year": "2016",
+    "County": "Warren County",
+    "Total:": "40,512",
+    "    Owner occupied": "29,569",
+    "    Renter occupied": "10,943"
+  },
+  {
+    "Year": "2017",
+    "County": "Atlantic County",
+    "Total:": "97,618",
+    "    Owner occupied": "62,964",
+    "    Renter occupied": "34,654"
+  },
+  {
+    "Year": "2017",
+    "County": "Bergen County",
+    "Total:": "338,516",
+    "    Owner occupied": "215,927",
+    "    Renter occupied": "122,589"
+  },
+  {
+    "Year": "2017",
+    "County": "Burlington County",
+    "Total:": "164,248",
+    "    Owner occupied": "123,012",
+    "    Renter occupied": "41,236"
+  },
+  {
+    "Year": "2017",
+    "County": "Camden County",
+    "Total:": "190,616",
+    "    Owner occupied": "125,863",
+    "    Renter occupied": "64,753"
+  },
+  {
+    "Year": "2017",
+    "County": "Cape May County",
+    "Total:": "39,526",
+    "    Owner occupied": "30,613",
+    "    Renter occupied": "8,913"
+  },
+  {
+    "Year": "2017",
+    "County": "Cumberland County",
+    "Total:": "50,696",
+    "    Owner occupied": "33,559",
+    "    Renter occupied": "17,137"
+  },
+  {
+    "Year": "2017",
+    "County": "Essex County",
+    "Total:": "284,928",
+    "    Owner occupied": "128,910",
+    "    Renter occupied": "156,018"
+  },
+  {
+    "Year": "2017",
+    "County": "Gloucester County",
+    "Total:": "105,236",
+    "    Owner occupied": "85,189",
+    "    Renter occupied": "20,047"
+  },
+  {
+    "Year": "2017",
+    "County": "Hudson County",
+    "Total:": "251,906",
+    "    Owner occupied": "79,978",
+    "    Renter occupied": "171,928"
+  },
+  {
+    "Year": "2017",
+    "County": "Hunterdon County",
+    "Total:": "45,967",
+    "    Owner occupied": "37,799",
+    "    Renter occupied": "8,168"
+  },
+  {
+    "Year": "2017",
+    "County": "Mercer County",
+    "Total:": "128,757",
+    "    Owner occupied": "81,741",
+    "    Renter occupied": "47,016"
+  },
+  {
+    "Year": "2017",
+    "County": "Middlesex County",
+    "Total:": "285,446",
+    "    Owner occupied": "181,906",
+    "    Renter occupied": "103,540"
+  },
+  {
+    "Year": "2017",
+    "County": "Monmouth County",
+    "Total:": "235,727",
+    "    Owner occupied": "175,403",
+    "    Renter occupied": "60,324"
+  },
+  {
+    "Year": "2017",
+    "County": "Morris County",
+    "Total:": "180,854",
+    "    Owner occupied": "133,490",
+    "    Renter occupied": "47,364"
+  },
+  {
+    "Year": "2017",
+    "County": "New Jersey",
+    "Total:": "3,218,798",
+    "    Owner occupied": "2,053,929",
+    "    Renter occupied": "1,164,869"
+  },
+  {
+    "Year": "2017",
+    "County": "Ocean County",
+    "Total:": "225,847",
+    "    Owner occupied": "180,631",
+    "    Renter occupied": "45,216"
+  },
+  {
+    "Year": "2017",
+    "County": "Passaic County",
+    "Total:": "168,397",
+    "    Owner occupied": "87,365",
+    "    Renter occupied": "81,032"
+  },
+  {
+    "Year": "2017",
+    "County": "Salem County",
+    "Total:": "24,801",
+    "    Owner occupied": "16,604",
+    "    Renter occupied": "8,197"
+  },
+  {
+    "Year": "2017",
+    "County": "Somerset County",
+    "Total:": "114,812",
+    "    Owner occupied": "88,392",
+    "    Renter occupied": "26,420"
+  },
+  {
+    "Year": "2017",
+    "County": "Sussex County",
+    "Total:": "53,396",
+    "    Owner occupied": "43,930",
+    "    Renter occupied": "9,466"
+  },
+  {
+    "Year": "2017",
+    "County": "Union County",
+    "Total:": "190,138",
+    "    Owner occupied": "110,787",
+    "    Renter occupied": "79,351"
+  },
+  {
+    "Year": "2017",
+    "County": "Warren County",
+    "Total:": "41,366",
+    "    Owner occupied": "29,866",
+    "    Renter occupied": "11,500"
+  },
+  {
+    "Year": "2018",
+    "County": "Atlantic County",
+    "Total:": "96,981",
+    "    Owner occupied": "66,859",
+    "    Renter occupied": "30,122"
+  },
+  {
+    "Year": "2018",
+    "County": "Bergen County",
+    "Total:": "339,953",
+    "    Owner occupied": "220,204",
+    "    Renter occupied": "119,749"
+  },
+  {
+    "Year": "2018",
+    "County": "Burlington County",
+    "Total:": "166,698",
+    "    Owner occupied": "125,628",
+    "    Renter occupied": "41,070"
+  },
+  {
+    "Year": "2018",
+    "County": "Camden County",
+    "Total:": "188,840",
+    "    Owner occupied": "125,678",
+    "    Renter occupied": "63,162"
+  },
+  {
+    "Year": "2018",
+    "County": "Cape May County",
+    "Total:": "39,208",
+    "    Owner occupied": "31,531",
+    "    Renter occupied": "7,677"
+  },
+  {
+    "Year": "2018",
+    "County": "Cumberland County",
+    "Total:": "50,034",
+    "    Owner occupied": "33,770",
+    "    Renter occupied": "16,264"
+  },
+  {
+    "Year": "2018",
+    "County": "Essex County",
+    "Total:": "289,921",
+    "    Owner occupied": "129,988",
+    "    Renter occupied": "159,933"
+  },
+  {
+    "Year": "2018",
+    "County": "Gloucester County",
+    "Total:": "101,414",
+    "    Owner occupied": "81,032",
+    "    Renter occupied": "20,382"
+  },
+  {
+    "Year": "2018",
+    "County": "Hudson County",
+    "Total:": "263,924",
+    "    Owner occupied": "87,480",
+    "    Renter occupied": "176,444"
+  },
+  {
+    "Year": "2018",
+    "County": "Hunterdon County",
+    "Total:": "47,733",
+    "    Owner occupied": "39,678",
+    "    Renter occupied": "8,055"
+  },
+  {
+    "Year": "2018",
+    "County": "Mercer County",
+    "Total:": "132,980",
+    "    Owner occupied": "83,219",
+    "    Renter occupied": "49,761"
+  },
+  {
+    "Year": "2018",
+    "County": "Middlesex County",
+    "Total:": "285,480",
+    "    Owner occupied": "179,541",
+    "    Renter occupied": "105,939"
+  },
+  {
+    "Year": "2018",
+    "County": "Monmouth County",
+    "Total:": "236,327",
+    "    Owner occupied": "175,902",
+    "    Renter occupied": "60,425"
+  },
+  {
+    "Year": "2018",
+    "County": "Morris County",
+    "Total:": "181,738",
+    "    Owner occupied": "133,030",
+    "    Renter occupied": "48,708"
+  },
+  {
+    "Year": "2018",
+    "County": "New Jersey",
+    "Total:": "3,249,567",
+    "    Owner occupied": "2,078,948",
+    "    Renter occupied": "1,170,619"
+  },
+  {
+    "Year": "2018",
+    "County": "Ocean County",
+    "Total:": "228,622",
+    "    Owner occupied": "182,981",
+    "    Renter occupied": "45,641"
+  },
+  {
+    "Year": "2018",
+    "County": "Passaic County",
+    "Total:": "169,521",
+    "    Owner occupied": "88,450",
+    "    Renter occupied": "81,071"
+  },
+  {
+    "Year": "2018",
+    "County": "Salem County",
+    "Total:": "23,952",
+    "    Owner occupied": "16,506",
+    "    Renter occupied": "7,446"
+  },
+  {
+    "Year": "2018",
+    "County": "Somerset County",
+    "Total:": "118,729",
+    "    Owner occupied": "91,176",
+    "    Renter occupied": "27,553"
+  },
+  {
+    "Year": "2018",
+    "County": "Sussex County",
+    "Total:": "53,749",
+    "    Owner occupied": "45,399",
+    "    Renter occupied": "8,350"
+  },
+  {
+    "Year": "2018",
+    "County": "Union County",
+    "Total:": "192,021",
+    "    Owner occupied": "110,647",
+    "    Renter occupied": "81,374"
+  },
+  {
+    "Year": "2018",
+    "County": "Warren County",
+    "Total:": "41,742",
+    "    Owner occupied": "30,249",
+    "    Renter occupied": "11,493"
+  },
+  {
+    "Year": "2019",
+    "County": "Atlantic County",
+    "Total:": "101,975",
+    "    Owner occupied": "67,659",
+    "    Renter occupied": "34,316"
+  },
+  {
+    "Year": "2019",
+    "County": "Bergen County",
+    "Total:": "343,733",
+    "    Owner occupied": "222,292",
+    "    Renter occupied": "121,441"
+  },
+  {
+    "Year": "2019",
+    "County": "Burlington County",
+    "Total:": "170,074",
+    "    Owner occupied": "124,607",
+    "    Renter occupied": "45,467"
+  },
+  {
+    "Year": "2019",
+    "County": "Camden County",
+    "Total:": "187,780",
+    "    Owner occupied": "126,990",
+    "    Renter occupied": "60,790"
+  },
+  {
+    "Year": "2019",
+    "County": "Cape May County",
+    "Total:": "40,939",
+    "    Owner occupied": "30,533",
+    "    Renter occupied": "10,406"
+  },
+  {
+    "Year": "2019",
+    "County": "Cumberland County",
+    "Total:": "51,360",
+    "    Owner occupied": "33,804",
+    "    Renter occupied": "17,556"
+  },
+  {
+    "Year": "2019",
+    "County": "Essex County",
+    "Total:": "295,976",
+    "    Owner occupied": "131,638",
+    "    Renter occupied": "164,338"
+  },
+  {
+    "Year": "2019",
+    "County": "Gloucester County",
+    "Total:": "106,705",
+    "    Owner occupied": "83,415",
+    "    Renter occupied": "23,290"
+  },
+  {
+    "Year": "2019",
+    "County": "Hudson County",
+    "Total:": "266,664",
+    "    Owner occupied": "83,332",
+    "    Renter occupied": "183,332"
+  },
+  {
+    "Year": "2019",
+    "County": "Hunterdon County",
+    "Total:": "47,901",
+    "    Owner occupied": "38,527",
+    "    Renter occupied": "9,374"
+  },
+  {
+    "Year": "2019",
+    "County": "Mercer County",
+    "Total:": "130,851",
+    "    Owner occupied": "81,851",
+    "    Renter occupied": "49,000"
+  },
+  {
+    "Year": "2019",
+    "County": "Middlesex County",
+    "Total:": "285,906",
+    "    Owner occupied": "181,453",
+    "    Renter occupied": "104,453"
+  },
+  {
+    "Year": "2019",
+    "County": "Monmouth County",
+    "Total:": "240,377",
+    "    Owner occupied": "174,634",
+    "    Renter occupied": "65,743"
+  },
+  {
+    "Year": "2019",
+    "County": "Morris County",
+    "Total:": "184,885",
+    "    Owner occupied": "132,419",
+    "    Renter occupied": "52,466"
+  },
+  {
+    "Year": "2019",
+    "County": "New Jersey",
+    "Total:": "3,286,264",
+    "    Owner occupied": "2,081,798",
+    "    Renter occupied": "1,204,466"
+  },
+  {
+    "Year": "2019",
+    "County": "Ocean County",
+    "Total:": "226,725",
+    "    Owner occupied": "183,046",
+    "    Renter occupied": "43,679"
+  },
+  {
+    "Year": "2019",
+    "County": "Passaic County",
+    "Total:": "168,059",
+    "    Owner occupied": "88,200",
+    "    Renter occupied": "79,859"
+  },
+  {
+    "Year": "2019",
+    "County": "Salem County",
+    "Total:": "24,404",
+    "    Owner occupied": "17,467",
+    "    Renter occupied": "6,937"
+  },
+  {
+    "Year": "2019",
+    "County": "Somerset County",
+    "Total:": "122,606",
+    "    Owner occupied": "91,514",
+    "    Renter occupied": "31,092"
+  },
+  {
+    "Year": "2019",
+    "County": "Sussex County",
+    "Total:": "54,099",
+    "    Owner occupied": "47,108",
+    "    Renter occupied": "6,991"
+  },
+  {
+    "Year": "2019",
+    "County": "Union County",
+    "Total:": "192,848",
+    "    Owner occupied": "111,662",
+    "    Renter occupied": "81,186"
+  },
+  {
+    "Year": "2019",
+    "County": "Warren County",
+    "Total:": "42,397",
+    "    Owner occupied": "29,647",
+    "    Renter occupied": "12,750"
+  },
+  {
+    "Year": "2021",
+    "County": "Atlantic County",
+    "Total:": "112,299",
+    "    Owner occupied": "75,198",
+    "    Renter occupied": "37,101"
+  },
+  {
+    "Year": "2021",
+    "County": "Bergen County",
+    "Total:": "352,030",
+    "    Owner occupied": "234,102",
+    "    Renter occupied": "117,928"
+  },
+  {
+    "Year": "2021",
+    "County": "Burlington County",
+    "Total:": "175,859",
+    "    Owner occupied": "136,141",
+    "    Renter occupied": "39,718"
+  },
+  {
+    "Year": "2021",
+    "County": "Camden County",
+    "Total:": "201,158",
+    "    Owner occupied": "131,385",
+    "    Renter occupied": "69,773"
+  },
+  {
+    "Year": "2021",
+    "County": "Cape May County",
+    "Total:": "48,860",
+    "    Owner occupied": "38,163",
+    "    Renter occupied": "10,697"
+  },
+  {
+    "Year": "2021",
+    "County": "Cumberland County",
+    "Total:": "53,883",
+    "    Owner occupied": "35,266",
+    "    Renter occupied": "18,617"
+  },
+  {
+    "Year": "2021",
+    "County": "Essex County",
+    "Total:": "322,453",
+    "    Owner occupied": "143,674",
+    "    Renter occupied": "178,779"
+  },
+  {
+    "Year": "2021",
+    "County": "Gloucester County",
+    "Total:": "112,502",
+    "    Owner occupied": "90,679",
+    "    Renter occupied": "21,823"
+  },
+  {
+    "Year": "2021",
+    "County": "Hudson County",
+    "Total:": "292,000",
+    "    Owner occupied": "94,167",
+    "    Renter occupied": "197,833"
+  },
+  {
+    "Year": "2021",
+    "County": "Hunterdon County",
+    "Total:": "51,292",
+    "    Owner occupied": "44,572",
+    "    Renter occupied": "6,720"
+  },
+  {
+    "Year": "2021",
+    "County": "Mercer County",
+    "Total:": "143,970",
+    "    Owner occupied": "90,821",
+    "    Renter occupied": "53,149"
+  },
+  {
+    "Year": "2021",
+    "County": "Middlesex County",
+    "Total:": "307,831",
+    "    Owner occupied": "199,177",
+    "    Renter occupied": "108,654"
+  },
+  {
+    "Year": "2021",
+    "County": "Monmouth County",
+    "Total:": "250,738",
+    "    Owner occupied": "189,905",
+    "    Renter occupied": "60,833"
+  },
+  {
+    "Year": "2021",
+    "County": "Morris County",
+    "Total:": "192,847",
+    "    Owner occupied": "145,301",
+    "    Renter occupied": "47,546"
+  },
+  {
+    "Year": "2021",
+    "County": "New Jersey",
+    "Total:": "3,497,945",
+    "    Owner occupied": "2,252,974",
+    "    Renter occupied": "1,244,971"
+  },
+  {
+    "Year": "2021",
+    "County": "Ocean County",
+    "Total:": "240,736",
+    "    Owner occupied": "193,793",
+    "    Renter occupied": "46,943"
+  },
+  {
+    "Year": "2021",
+    "County": "Passaic County",
+    "Total:": "177,063",
+    "    Owner occupied": "92,159",
+    "    Renter occupied": "84,904"
+  },
+  {
+    "Year": "2021",
+    "County": "Salem County",
+    "Total:": "24,973",
+    "    Owner occupied": "17,937",
+    "    Renter occupied": "7,036"
+  },
+  {
+    "Year": "2021",
+    "County": "Somerset County",
+    "Total:": "130,939",
+    "    Owner occupied": "100,542",
+    "    Renter occupied": "30,397"
+  },
+  {
+    "Year": "2021",
+    "County": "Sussex County",
+    "Total:": "58,767",
+    "    Owner occupied": "50,953",
+    "    Renter occupied": "7,814"
+  },
+  {
+    "Year": "2021",
+    "County": "Union County",
+    "Total:": "201,392",
+    "    Owner occupied": "115,020",
+    "    Renter occupied": "86,372"
+  },
+  {
+    "Year": "2021",
+    "County": "Warren County",
+    "Total:": "46,353",
+    "    Owner occupied": "34,019",
+    "    Renter occupied": "12,334"
+  },
+  {
+    "Year": "2022",
+    "County": "Atlantic County",
+    "Total:": "106,972",
+    "    Owner occupied": "74,931",
+    "    Renter occupied": "32,041"
+  },
+  {
+    "Year": "2022",
+    "County": "Bergen County",
+    "Total:": "354,937",
+    "    Owner occupied": "233,045",
+    "    Renter occupied": "121,892"
+  },
+  {
+    "Year": "2022",
+    "County": "Burlington County",
+    "Total:": "176,334",
+    "    Owner occupied": "135,057",
+    "    Renter occupied": "41,277"
+  },
+  {
+    "Year": "2022",
+    "County": "Camden County",
+    "Total:": "203,530",
+    "    Owner occupied": "134,618",
+    "    Renter occupied": "68,912"
+  },
+  {
+    "Year": "2022",
+    "County": "Cape May County",
+    "Total:": "48,563",
+    "    Owner occupied": "37,046",
+    "    Renter occupied": "11,517"
+  },
+  {
+    "Year": "2022",
+    "County": "Cumberland County",
+    "Total:": "54,961",
+    "    Owner occupied": "36,759",
+    "    Renter occupied": "18,202"
+  },
+  {
+    "Year": "2022",
+    "County": "Essex County",
+    "Total:": "321,371",
+    "    Owner occupied": "148,132",
+    "    Renter occupied": "173,239"
+  },
+  {
+    "Year": "2022",
+    "County": "Gloucester County",
+    "Total:": "111,781",
+    "    Owner occupied": "90,355",
+    "    Renter occupied": "21,426"
+  },
+  {
+    "Year": "2022",
+    "County": "Hudson County",
+    "Total:": "304,526",
+    "    Owner occupied": "98,457",
+    "    Renter occupied": "206,069"
+  },
+  {
+    "Year": "2022",
+    "County": "Hunterdon County",
+    "Total:": "50,515",
+    "    Owner occupied": "43,634",
+    "    Renter occupied": "6,881"
+  },
+  {
+    "Year": "2022",
+    "County": "Mercer County",
+    "Total:": "144,989",
+    "    Owner occupied": "92,391",
+    "    Renter occupied": "52,598"
+  },
+  {
+    "Year": "2022",
+    "County": "Middlesex County",
+    "Total:": "306,950",
+    "    Owner occupied": "199,382",
+    "    Renter occupied": "107,568"
+  },
+  {
+    "Year": "2022",
+    "County": "Monmouth County",
+    "Total:": "253,767",
+    "    Owner occupied": "193,351",
+    "    Renter occupied": "60,416"
+  },
+  {
+    "Year": "2022",
+    "County": "Morris County",
+    "Total:": "194,141",
+    "    Owner occupied": "145,497",
+    "    Renter occupied": "48,644"
+  },
+  {
+    "Year": "2022",
+    "County": "New Jersey",
+    "Total:": "3,516,978",
+    "    Owner occupied": "2,272,995",
+    "    Renter occupied": "1,243,983"
+  },
+  {
+    "Year": "2022",
+    "County": "Ocean County",
+    "Total:": "241,983",
+    "    Owner occupied": "195,515",
+    "    Renter occupied": "46,468"
+  },
+  {
+    "Year": "2022",
+    "County": "Passaic County",
+    "Total:": "179,292",
+    "    Owner occupied": "96,083",
+    "    Renter occupied": "83,209"
+  },
+  {
+    "Year": "2022",
+    "County": "Salem County",
+    "Total:": "25,221",
+    "    Owner occupied": "18,889",
+    "    Renter occupied": "6,332"
+  },
+  {
+    "Year": "2022",
+    "County": "Somerset County",
+    "Total:": "130,178",
+    "    Owner occupied": "100,332",
+    "    Renter occupied": "29,846"
+  },
+  {
+    "Year": "2022",
+    "County": "Sussex County",
+    "Total:": "58,885",
+    "    Owner occupied": "50,049",
+    "    Renter occupied": "8,836"
+  },
+  {
+    "Year": "2022",
+    "County": "Union County",
+    "Total:": "202,575",
+    "    Owner occupied": "115,513",
+    "    Renter occupied": "87,062"
+  },
+  {
+    "Year": "2022",
+    "County": "Warren County",
+    "Total:": "45,507",
+    "    Owner occupied": "33,959",
+    "    Renter occupied": "11,548"
+  },
+  {
+    "Year": "2023",
+    "County": "Atlantic County",
+    "Total:": "111,158",
+    "    Owner occupied": "74,940",
+    "    Renter occupied": "36,218"
+  },
+  {
+    "Year": "2023",
+    "County": "Bergen County",
+    "Total:": "356,438",
+    "    Owner occupied": "231,063",
+    "    Renter occupied": "125,375"
+  },
+  {
+    "Year": "2023",
+    "County": "Burlington County",
+    "Total:": "179,477",
+    "    Owner occupied": "137,492",
+    "    Renter occupied": "41,985"
+  },
+  {
+    "Year": "2023",
+    "County": "Camden County",
+    "Total:": "201,670",
+    "    Owner occupied": "134,076",
+    "    Renter occupied": "67,594"
+  },
+  {
+    "Year": "2023",
+    "County": "Cape May County",
+    "Total:": "47,516",
+    "    Owner occupied": "39,371",
+    "    Renter occupied": "8,145"
+  },
+  {
+    "Year": "2023",
+    "County": "Cumberland County",
+    "Total:": "54,482",
+    "    Owner occupied": "36,090",
+    "    Renter occupied": "18,392"
+  },
+  {
+    "Year": "2023",
+    "County": "Essex County",
+    "Total:": "322,456",
+    "    Owner occupied": "146,736",
+    "    Renter occupied": "175,720"
+  },
+  {
+    "Year": "2023",
+    "County": "Gloucester County",
+    "Total:": "113,391",
+    "    Owner occupied": "89,768",
+    "    Renter occupied": "23,623"
+  },
+  {
+    "Year": "2023",
+    "County": "Hudson County",
+    "Total:": "305,743",
+    "    Owner occupied": "88,102",
+    "    Renter occupied": "217,641"
+  },
+  {
+    "Year": "2023",
+    "County": "Hunterdon County",
+    "Total:": "51,186",
+    "    Owner occupied": "43,834",
+    "    Renter occupied": "7,352"
+  },
+  {
+    "Year": "2023",
+    "County": "Mercer County",
+    "Total:": "146,258",
+    "    Owner occupied": "88,183",
+    "    Renter occupied": "58,075"
+  },
+  {
+    "Year": "2023",
+    "County": "Middlesex County",
+    "Total:": "311,100",
+    "    Owner occupied": "196,353",
+    "    Renter occupied": "114,747"
+  },
+  {
+    "Year": "2023",
+    "County": "Monmouth County",
+    "Total:": "252,995",
+    "    Owner occupied": "188,381",
+    "    Renter occupied": "64,614"
+  },
+  {
+    "Year": "2023",
+    "County": "Morris County",
+    "Total:": "193,192",
+    "    Owner occupied": "144,520",
+    "    Renter occupied": "48,672"
+  },
+  {
+    "Year": "2023",
+    "County": "New Jersey",
+    "Total:": "3,538,457",
+    "    Owner occupied": "2,255,452",
+    "    Renter occupied": "1,283,005"
+  },
+  {
+    "Year": "2023",
+    "County": "Ocean County",
+    "Total:": "245,827",
+    "    Owner occupied": "197,440",
+    "    Renter occupied": "48,387"
+  },
+  {
+    "Year": "2023",
+    "County": "Passaic County",
+    "Total:": "178,277",
+    "    Owner occupied": "97,018",
+    "    Renter occupied": "81,259"
+  },
+  {
+    "Year": "2023",
+    "County": "Salem County",
+    "Total:": "25,207",
+    "    Owner occupied": "18,245",
+    "    Renter occupied": "6,962"
+  },
+  {
+    "Year": "2023",
+    "County": "Somerset County",
+    "Total:": "132,047",
+    "    Owner occupied": "98,372",
+    "    Renter occupied": "33,675"
+  },
+  {
+    "Year": "2023",
+    "County": "Sussex County",
+    "Total:": "58,679",
+    "    Owner occupied": "49,903",
+    "    Renter occupied": "8,776"
+  },
+  {
+    "Year": "2023",
+    "County": "Union County",
+    "Total:": "206,095",
+    "    Owner occupied": "121,379",
+    "    Renter occupied": "84,716"
+  },
+  {
+    "Year": "2023",
+    "County": "Warren County",
+    "Total:": "45,263",
+    "    Owner occupied": "34,186",
+    "    Renter occupied": "11,077"
+  }
+]

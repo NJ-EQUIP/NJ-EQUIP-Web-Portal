@@ -3,10 +3,19 @@
 import React, { useRef, useEffect, useState } from 'react'
 import { MapContainer, TileLayer, GeoJSON, LayersControl } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
-//import * as turf from '@turf/turf'
 
 const municipalURL = 'https://services2.arcgis.com/XVOqAjTOJ5P6ngMu/arcgis/rest/services/NJ_Municipal_Boundaries_3424/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson'
 const countyURL = 'https://services2.arcgis.com/XVOqAjTOJ5P6ngMu/arcgis/rest/services/NJ_Counties_3424/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson'
+
+const datasetFileMap = {
+    'energy-burden': 'Energy-Burden-County.json',
+    'housing-built-year': 'housing_built_year.json',
+    'heating-fuel': 'heating-fuel.json',
+    'income': 'income.json',
+    'njcep-savings': 'njcep_with_savings.json',
+    'race-ethnicity': 'race_ethnicity_hispanic_latino.json',
+    'tenure-type': 'tenure_type.json'
+}
 
 function Map() {
     const [municipalData, setMunicipalData] = useState(null)
@@ -65,17 +74,39 @@ function Map() {
         const fetchCountyData = async () => {
             setCountyInfo(null)
             const dataset = selectedDatasetRef.current
+
             try {
-                const response = await fetch(
-                    `http://localhost:5050/api/county-filters/${dataset}?county=${encodeURIComponent(selectedFeature.name)}&year=${selectedYear}`
-                )
-                const data = await response.json()
-                setCountyInfo(data)
+                const filename = datasetFileMap[dataset]
+                if (!filename) {
+                    throw new Error(`No filename mapping found for dataset: ${dataset}`)
+                }
+                const res = await fetch(`/data/county-filters/${filename}`)
+
+                const allData = await res.json()
+
+                const normalizeCounty = (str) =>
+                    str?.toLowerCase().replace(/\s*county\s*$/, '').trim()
+
+                const filtered = allData.filter(row => {
+                    const rowCounty = row.Name || row.name || row.County || row.county
+                    const rowYear = row.year || row.Year || row.YEAR
+
+                    const matchesCounty = rowCounty &&
+                        normalizeCounty(rowCounty) === normalizeCounty(selectedFeature.name)
+
+                    const needsYear = !['energy-burden'].includes(dataset)
+                    const matchesYear = !needsYear || (rowYear && rowYear.toString() === selectedYear)
+
+                    return matchesCounty && matchesYear
+                })
+
+                setCountyInfo(filtered)
             } catch (err) {
                 console.error('Failed to load county info:', err)
                 setCountyInfo({ error: 'Failed to fetch data' })
             }
         }
+
 
         fetchCountyData()
     }, [selectedFeature, selectedDataset, selectedYear])

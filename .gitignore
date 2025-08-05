@@ -46,3 +46,6 @@ coverage/
 
 # Local Netlify folder
 .netlify
+
+# === Data Conversion Scripts ===
+convert-csv-to-json.mjs

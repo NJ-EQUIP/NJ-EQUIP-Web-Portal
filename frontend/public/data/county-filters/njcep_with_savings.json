@@ -1,0 +1,2060 @@
+[
+  {
+    "County": "Atlantic",
+    "Year": "2008",
+    "No of NJCEP Programs": "0",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Atlantic",
+    "Year": "2009",
+    "No of NJCEP Programs": "41",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Atlantic",
+    "Year": "2010",
+    "No of NJCEP Programs": "19",
+    "Annual Electric Savings (kWh)": "117664.72",
+    "Annual Gas Savings (Therms)": "2970.67"
+  },
+  {
+    "County": "Atlantic",
+    "Year": "2011",
+    "No of NJCEP Programs": "79",
+    "Annual Electric Savings (kWh)": "1378585.32",
+    "Annual Gas Savings (Therms)": "-15608.97"
+  },
+  {
+    "County": "Atlantic",
+    "Year": "2012",
+    "No of NJCEP Programs": "61",
+    "Annual Electric Savings (kWh)": "1454832.19",
+    "Annual Gas Savings (Therms)": "23410.51"
+  },
+  {
+    "County": "Atlantic",
+    "Year": "2013",
+    "No of NJCEP Programs": "25",
+    "Annual Electric Savings (kWh)": "864807.89",
+    "Annual Gas Savings (Therms)": "15933.52"
+  },
+  {
+    "County": "Atlantic",
+    "Year": "2014",
+    "No of NJCEP Programs": "9",
+    "Annual Electric Savings (kWh)": "270770.46",
+    "Annual Gas Savings (Therms)": "3507.15"
+  },
+  {
+    "County": "Atlantic",
+    "Year": "2015",
+    "No of NJCEP Programs": "7",
+    "Annual Electric Savings (kWh)": "362251.08",
+    "Annual Gas Savings (Therms)": "3796.87"
+  },
+  {
+    "County": "Atlantic",
+    "Year": "2016",
+    "No of NJCEP Programs": "11",
+    "Annual Electric Savings (kWh)": "642832.86",
+    "Annual Gas Savings (Therms)": "2389.27"
+  },
+  {
+    "County": "Atlantic",
+    "Year": "2017",
+    "No of NJCEP Programs": "6",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "1212.81"
+  },
+  {
+    "County": "Atlantic",
+    "Year": "2018",
+    "No of NJCEP Programs": "20",
+    "Annual Electric Savings (kWh)": "902118",
+    "Annual Gas Savings (Therms)": "29883.33"
+  },
+  {
+    "County": "Atlantic",
+    "Year": "2019",
+    "No of NJCEP Programs": "16",
+    "Annual Electric Savings (kWh)": "415017",
+    "Annual Gas Savings (Therms)": "-15.68"
+  },
+  {
+    "County": "Atlantic",
+    "Year": "2020",
+    "No of NJCEP Programs": "25",
+    "Annual Electric Savings (kWh)": "441405",
+    "Annual Gas Savings (Therms)": "6675.92"
+  },
+  {
+    "County": "Atlantic",
+    "Year": "2021",
+    "No of NJCEP Programs": "2",
+    "Annual Electric Savings (kWh)": "3273",
+    "Annual Gas Savings (Therms)": "196.11"
+  },
+  {
+    "County": "Bergen",
+    "Year": "2008",
+    "No of NJCEP Programs": "0",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Bergen",
+    "Year": "2009",
+    "No of NJCEP Programs": "30",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Bergen",
+    "Year": "2010",
+    "No of NJCEP Programs": "65",
+    "Annual Electric Savings (kWh)": "127919.18",
+    "Annual Gas Savings (Therms)": "2322.15"
+  },
+  {
+    "County": "Bergen",
+    "Year": "2011",
+    "No of NJCEP Programs": "203",
+    "Annual Electric Savings (kWh)": "5216691.06",
+    "Annual Gas Savings (Therms)": "104632.03"
+  },
+  {
+    "County": "Bergen",
+    "Year": "2012",
+    "No of NJCEP Programs": "143",
+    "Annual Electric Savings (kWh)": "3048342.36",
+    "Annual Gas Savings (Therms)": "103825.75"
+  },
+  {
+    "County": "Bergen",
+    "Year": "2013",
+    "No of NJCEP Programs": "44",
+    "Annual Electric Savings (kWh)": "564634.96",
+    "Annual Gas Savings (Therms)": "30330.58"
+  },
+  {
+    "County": "Bergen",
+    "Year": "2014",
+    "No of NJCEP Programs": "36",
+    "Annual Electric Savings (kWh)": "423753.96",
+    "Annual Gas Savings (Therms)": "18393.28"
+  },
+  {
+    "County": "Bergen",
+    "Year": "2015",
+    "No of NJCEP Programs": "64",
+    "Annual Electric Savings (kWh)": "2123887.76",
+    "Annual Gas Savings (Therms)": "128780.71"
+  },
+  {
+    "County": "Bergen",
+    "Year": "2016",
+    "No of NJCEP Programs": "37",
+    "Annual Electric Savings (kWh)": "680386.32",
+    "Annual Gas Savings (Therms)": "14292.32"
+  },
+  {
+    "County": "Bergen",
+    "Year": "2017",
+    "No of NJCEP Programs": "46",
+    "Annual Electric Savings (kWh)": "1154312",
+    "Annual Gas Savings (Therms)": "75451.44"
+  },
+  {
+    "County": "Bergen",
+    "Year": "2018",
+    "No of NJCEP Programs": "96",
+    "Annual Electric Savings (kWh)": "2496799",
+    "Annual Gas Savings (Therms)": "179341.62"
+  },
+  {
+    "County": "Bergen",
+    "Year": "2019",
+    "No of NJCEP Programs": "54",
+    "Annual Electric Savings (kWh)": "1605266",
+    "Annual Gas Savings (Therms)": "29824.49"
+  },
+  {
+    "County": "Bergen",
+    "Year": "2020",
+    "No of NJCEP Programs": "100",
+    "Annual Electric Savings (kWh)": "4389671",
+    "Annual Gas Savings (Therms)": "75234.13"
+  },
+  {
+    "County": "Bergen",
+    "Year": "2021",
+    "No of NJCEP Programs": "22",
+    "Annual Electric Savings (kWh)": "1321593",
+    "Annual Gas Savings (Therms)": "19516.65"
+  },
+  {
+    "County": "Burlington",
+    "Year": "2008",
+    "No of NJCEP Programs": "0",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Burlington",
+    "Year": "2009",
+    "No of NJCEP Programs": "13",
+    "Annual Electric Savings (kWh)": "22627.08",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Burlington",
+    "Year": "2010",
+    "No of NJCEP Programs": "27",
+    "Annual Electric Savings (kWh)": "90679.3",
+    "Annual Gas Savings (Therms)": "1157.51"
+  },
+  {
+    "County": "Burlington",
+    "Year": "2011",
+    "No of NJCEP Programs": "68",
+    "Annual Electric Savings (kWh)": "2566329.1",
+    "Annual Gas Savings (Therms)": "29255.6"
+  },
+  {
+    "County": "Burlington",
+    "Year": "2012",
+    "No of NJCEP Programs": "55",
+    "Annual Electric Savings (kWh)": "866669.42",
+    "Annual Gas Savings (Therms)": "6336.72"
+  },
+  {
+    "County": "Burlington",
+    "Year": "2013",
+    "No of NJCEP Programs": "43",
+    "Annual Electric Savings (kWh)": "614023.72",
+    "Annual Gas Savings (Therms)": "33013.23"
+  },
+  {
+    "County": "Burlington",
+    "Year": "2014",
+    "No of NJCEP Programs": "23",
+    "Annual Electric Savings (kWh)": "187475.43",
+    "Annual Gas Savings (Therms)": "2153.94"
+  },
+  {
+    "County": "Burlington",
+    "Year": "2015",
+    "No of NJCEP Programs": "16",
+    "Annual Electric Savings (kWh)": "246879.39",
+    "Annual Gas Savings (Therms)": "2058.81"
+  },
+  {
+    "County": "Burlington",
+    "Year": "2016",
+    "No of NJCEP Programs": "14",
+    "Annual Electric Savings (kWh)": "190105.83",
+    "Annual Gas Savings (Therms)": "867.09"
+  },
+  {
+    "County": "Burlington",
+    "Year": "2017",
+    "No of NJCEP Programs": "39",
+    "Annual Electric Savings (kWh)": "1739739",
+    "Annual Gas Savings (Therms)": "4300.05"
+  },
+  {
+    "County": "Burlington",
+    "Year": "2018",
+    "No of NJCEP Programs": "28",
+    "Annual Electric Savings (kWh)": "989014",
+    "Annual Gas Savings (Therms)": "-6169.16"
+  },
+  {
+    "County": "Burlington",
+    "Year": "2019",
+    "No of NJCEP Programs": "22",
+    "Annual Electric Savings (kWh)": "2049072",
+    "Annual Gas Savings (Therms)": "-3813.17"
+  },
+  {
+    "County": "Burlington",
+    "Year": "2020",
+    "No of NJCEP Programs": "76",
+    "Annual Electric Savings (kWh)": "2910423",
+    "Annual Gas Savings (Therms)": "49516.05"
+  },
+  {
+    "County": "Burlington",
+    "Year": "2021",
+    "No of NJCEP Programs": "26",
+    "Annual Electric Savings (kWh)": "935874",
+    "Annual Gas Savings (Therms)": "27304.35"
+  },
+  {
+    "County": "Camden",
+    "Year": "2008",
+    "No of NJCEP Programs": "0",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Camden",
+    "Year": "2009",
+    "No of NJCEP Programs": "2",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Camden",
+    "Year": "2010",
+    "No of NJCEP Programs": "43",
+    "Annual Electric Savings (kWh)": "159346.45",
+    "Annual Gas Savings (Therms)": "563.33"
+  },
+  {
+    "County": "Camden",
+    "Year": "2011",
+    "No of NJCEP Programs": "53",
+    "Annual Electric Savings (kWh)": "832109.34",
+    "Annual Gas Savings (Therms)": "17480.51"
+  },
+  {
+    "County": "Camden",
+    "Year": "2012",
+    "No of NJCEP Programs": "38",
+    "Annual Electric Savings (kWh)": "689920.14",
+    "Annual Gas Savings (Therms)": "5667.36"
+  },
+  {
+    "County": "Camden",
+    "Year": "2013",
+    "No of NJCEP Programs": "50",
+    "Annual Electric Savings (kWh)": "391718.61",
+    "Annual Gas Savings (Therms)": "30464.42"
+  },
+  {
+    "County": "Camden",
+    "Year": "2014",
+    "No of NJCEP Programs": "66",
+    "Annual Electric Savings (kWh)": "893454.39",
+    "Annual Gas Savings (Therms)": "66070.12"
+  },
+  {
+    "County": "Camden",
+    "Year": "2015",
+    "No of NJCEP Programs": "45",
+    "Annual Electric Savings (kWh)": "615414.35",
+    "Annual Gas Savings (Therms)": "55160.44"
+  },
+  {
+    "County": "Camden",
+    "Year": "2016",
+    "No of NJCEP Programs": "25",
+    "Annual Electric Savings (kWh)": "408207.2",
+    "Annual Gas Savings (Therms)": "45164.13"
+  },
+  {
+    "County": "Camden",
+    "Year": "2017",
+    "No of NJCEP Programs": "16",
+    "Annual Electric Savings (kWh)": "1842511",
+    "Annual Gas Savings (Therms)": "124727.49"
+  },
+  {
+    "County": "Camden",
+    "Year": "2018",
+    "No of NJCEP Programs": "34",
+    "Annual Electric Savings (kWh)": "1347268",
+    "Annual Gas Savings (Therms)": "56363.14"
+  },
+  {
+    "County": "Camden",
+    "Year": "2019",
+    "No of NJCEP Programs": "65",
+    "Annual Electric Savings (kWh)": "1379224",
+    "Annual Gas Savings (Therms)": "74309.31"
+  },
+  {
+    "County": "Camden",
+    "Year": "2020",
+    "No of NJCEP Programs": "121",
+    "Annual Electric Savings (kWh)": "2758164",
+    "Annual Gas Savings (Therms)": "48396.81"
+  },
+  {
+    "County": "Camden",
+    "Year": "2021",
+    "No of NJCEP Programs": "10",
+    "Annual Electric Savings (kWh)": "393982",
+    "Annual Gas Savings (Therms)": "2373.96"
+  },
+  {
+    "County": "Cape May",
+    "Year": "2008",
+    "No of NJCEP Programs": "1",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "1258.06"
+  },
+  {
+    "County": "Cape May",
+    "Year": "2009",
+    "No of NJCEP Programs": "3",
+    "Annual Electric Savings (kWh)": "44019.05",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Cape May",
+    "Year": "2010",
+    "No of NJCEP Programs": "66",
+    "Annual Electric Savings (kWh)": "28011.92",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Cape May",
+    "Year": "2011",
+    "No of NJCEP Programs": "39",
+    "Annual Electric Savings (kWh)": "833651.93",
+    "Annual Gas Savings (Therms)": "-3357.9"
+  },
+  {
+    "County": "Cape May",
+    "Year": "2012",
+    "No of NJCEP Programs": "31",
+    "Annual Electric Savings (kWh)": "561231.69",
+    "Annual Gas Savings (Therms)": "-18504.85"
+  },
+  {
+    "County": "Cape May",
+    "Year": "2013",
+    "No of NJCEP Programs": "13",
+    "Annual Electric Savings (kWh)": "360035.71",
+    "Annual Gas Savings (Therms)": "7149.03"
+  },
+  {
+    "County": "Cape May",
+    "Year": "2014",
+    "No of NJCEP Programs": "10",
+    "Annual Electric Savings (kWh)": "249737.62",
+    "Annual Gas Savings (Therms)": "9631.98"
+  },
+  {
+    "County": "Cape May",
+    "Year": "2015",
+    "No of NJCEP Programs": "1",
+    "Annual Electric Savings (kWh)": "14322.85",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Cape May",
+    "Year": "2016",
+    "No of NJCEP Programs": "3",
+    "Annual Electric Savings (kWh)": "10065",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Cape May",
+    "Year": "2017",
+    "No of NJCEP Programs": "3",
+    "Annual Electric Savings (kWh)": "62843",
+    "Annual Gas Savings (Therms)": "2614.13"
+  },
+  {
+    "County": "Cape May",
+    "Year": "2018",
+    "No of NJCEP Programs": "27",
+    "Annual Electric Savings (kWh)": "1609423",
+    "Annual Gas Savings (Therms)": "61244.92"
+  },
+  {
+    "County": "Cape May",
+    "Year": "2019",
+    "No of NJCEP Programs": "25",
+    "Annual Electric Savings (kWh)": "628107",
+    "Annual Gas Savings (Therms)": "6276.65"
+  },
+  {
+    "County": "Cape May",
+    "Year": "2020",
+    "No of NJCEP Programs": "51",
+    "Annual Electric Savings (kWh)": "622384",
+    "Annual Gas Savings (Therms)": "1464.02"
+  },
+  {
+    "County": "Cape May",
+    "Year": "2021",
+    "No of NJCEP Programs": "19",
+    "Annual Electric Savings (kWh)": "45919",
+    "Annual Gas Savings (Therms)": "-262.92"
+  },
+  {
+    "County": "Cumberland",
+    "Year": "2008",
+    "No of NJCEP Programs": "5",
+    "Annual Electric Savings (kWh)": "100830.68",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Cumberland",
+    "Year": "2009",
+    "No of NJCEP Programs": "1",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Cumberland",
+    "Year": "2010",
+    "No of NJCEP Programs": "2",
+    "Annual Electric Savings (kWh)": "7714.34",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Cumberland",
+    "Year": "2011",
+    "No of NJCEP Programs": "23",
+    "Annual Electric Savings (kWh)": "406179.94",
+    "Annual Gas Savings (Therms)": "10575.01"
+  },
+  {
+    "County": "Cumberland",
+    "Year": "2012",
+    "No of NJCEP Programs": "15",
+    "Annual Electric Savings (kWh)": "299629.34",
+    "Annual Gas Savings (Therms)": "2974.48"
+  },
+  {
+    "County": "Cumberland",
+    "Year": "2013",
+    "No of NJCEP Programs": "13",
+    "Annual Electric Savings (kWh)": "167871.12",
+    "Annual Gas Savings (Therms)": "2663.07"
+  },
+  {
+    "County": "Cumberland",
+    "Year": "2014",
+    "No of NJCEP Programs": "6",
+    "Annual Electric Savings (kWh)": "105501.25",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Cumberland",
+    "Year": "2015",
+    "No of NJCEP Programs": "6",
+    "Annual Electric Savings (kWh)": "74584.74",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Cumberland",
+    "Year": "2016",
+    "No of NJCEP Programs": "0",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Cumberland",
+    "Year": "2017",
+    "No of NJCEP Programs": "5",
+    "Annual Electric Savings (kWh)": "165288",
+    "Annual Gas Savings (Therms)": "12574.04"
+  },
+  {
+    "County": "Cumberland",
+    "Year": "2018",
+    "No of NJCEP Programs": "1",
+    "Annual Electric Savings (kWh)": "23116",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Cumberland",
+    "Year": "2019",
+    "No of NJCEP Programs": "8",
+    "Annual Electric Savings (kWh)": "161454",
+    "Annual Gas Savings (Therms)": "6548.12"
+  },
+  {
+    "County": "Cumberland",
+    "Year": "2020",
+    "No of NJCEP Programs": "34",
+    "Annual Electric Savings (kWh)": "294687",
+    "Annual Gas Savings (Therms)": "1890.98"
+  },
+  {
+    "County": "Cumberland",
+    "Year": "2021",
+    "No of NJCEP Programs": "11",
+    "Annual Electric Savings (kWh)": "181127",
+    "Annual Gas Savings (Therms)": "2974.59"
+  },
+  {
+    "County": "Essex",
+    "Year": "2008",
+    "No of NJCEP Programs": "4",
+    "Annual Electric Savings (kWh)": "22994.85",
+    "Annual Gas Savings (Therms)": "1588.24"
+  },
+  {
+    "County": "Essex",
+    "Year": "2009",
+    "No of NJCEP Programs": "9",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Essex",
+    "Year": "2010",
+    "No of NJCEP Programs": "23",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "18103.43"
+  },
+  {
+    "County": "Essex",
+    "Year": "2011",
+    "No of NJCEP Programs": "93",
+    "Annual Electric Savings (kWh)": "2223179.98",
+    "Annual Gas Savings (Therms)": "27508.6"
+  },
+  {
+    "County": "Essex",
+    "Year": "2012",
+    "No of NJCEP Programs": "50",
+    "Annual Electric Savings (kWh)": "1100241.75",
+    "Annual Gas Savings (Therms)": "28231.77"
+  },
+  {
+    "County": "Essex",
+    "Year": "2013",
+    "No of NJCEP Programs": "86",
+    "Annual Electric Savings (kWh)": "459815.6",
+    "Annual Gas Savings (Therms)": "29138.39"
+  },
+  {
+    "County": "Essex",
+    "Year": "2014",
+    "No of NJCEP Programs": "40",
+    "Annual Electric Savings (kWh)": "10587.33",
+    "Annual Gas Savings (Therms)": "10799.61"
+  },
+  {
+    "County": "Essex",
+    "Year": "2015",
+    "No of NJCEP Programs": "42",
+    "Annual Electric Savings (kWh)": "1160818.52",
+    "Annual Gas Savings (Therms)": "61152.13"
+  },
+  {
+    "County": "Essex",
+    "Year": "2016",
+    "No of NJCEP Programs": "35",
+    "Annual Electric Savings (kWh)": "972971.57",
+    "Annual Gas Savings (Therms)": "36026.75"
+  },
+  {
+    "County": "Essex",
+    "Year": "2017",
+    "No of NJCEP Programs": "22",
+    "Annual Electric Savings (kWh)": "2564421",
+    "Annual Gas Savings (Therms)": "160637.83"
+  },
+  {
+    "County": "Essex",
+    "Year": "2018",
+    "No of NJCEP Programs": "45",
+    "Annual Electric Savings (kWh)": "1904572",
+    "Annual Gas Savings (Therms)": "79272.99"
+  },
+  {
+    "County": "Essex",
+    "Year": "2019",
+    "No of NJCEP Programs": "39",
+    "Annual Electric Savings (kWh)": "454042",
+    "Annual Gas Savings (Therms)": "10638.97"
+  },
+  {
+    "County": "Essex",
+    "Year": "2020",
+    "No of NJCEP Programs": "56",
+    "Annual Electric Savings (kWh)": "2688160",
+    "Annual Gas Savings (Therms)": "-4106.99"
+  },
+  {
+    "County": "Essex",
+    "Year": "2021",
+    "No of NJCEP Programs": "5",
+    "Annual Electric Savings (kWh)": "167192",
+    "Annual Gas Savings (Therms)": "1198.98"
+  },
+  {
+    "County": "Gloucester",
+    "Year": "2008",
+    "No of NJCEP Programs": "3",
+    "Annual Electric Savings (kWh)": "13299.02",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Gloucester",
+    "Year": "2009",
+    "No of NJCEP Programs": "6",
+    "Annual Electric Savings (kWh)": "51125.49",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Gloucester",
+    "Year": "2010",
+    "No of NJCEP Programs": "6",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "653.61"
+  },
+  {
+    "County": "Gloucester",
+    "Year": "2011",
+    "No of NJCEP Programs": "37",
+    "Annual Electric Savings (kWh)": "511662.7",
+    "Annual Gas Savings (Therms)": "2714.69"
+  },
+  {
+    "County": "Gloucester",
+    "Year": "2012",
+    "No of NJCEP Programs": "52",
+    "Annual Electric Savings (kWh)": "902948.51",
+    "Annual Gas Savings (Therms)": "1467.11"
+  },
+  {
+    "County": "Gloucester",
+    "Year": "2013",
+    "No of NJCEP Programs": "14",
+    "Annual Electric Savings (kWh)": "792412.23",
+    "Annual Gas Savings (Therms)": "15588.02"
+  },
+  {
+    "County": "Gloucester",
+    "Year": "2014",
+    "No of NJCEP Programs": "14",
+    "Annual Electric Savings (kWh)": "14692.02",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Gloucester",
+    "Year": "2015",
+    "No of NJCEP Programs": "10",
+    "Annual Electric Savings (kWh)": "169283.4",
+    "Annual Gas Savings (Therms)": "2669.92"
+  },
+  {
+    "County": "Gloucester",
+    "Year": "2016",
+    "No of NJCEP Programs": "10",
+    "Annual Electric Savings (kWh)": "481096",
+    "Annual Gas Savings (Therms)": "11657.94"
+  },
+  {
+    "County": "Gloucester",
+    "Year": "2017",
+    "No of NJCEP Programs": "23",
+    "Annual Electric Savings (kWh)": "625137",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Gloucester",
+    "Year": "2018",
+    "No of NJCEP Programs": "44",
+    "Annual Electric Savings (kWh)": "737597",
+    "Annual Gas Savings (Therms)": "10749.81"
+  },
+  {
+    "County": "Gloucester",
+    "Year": "2019",
+    "No of NJCEP Programs": "42",
+    "Annual Electric Savings (kWh)": "1029538",
+    "Annual Gas Savings (Therms)": "6793.61"
+  },
+  {
+    "County": "Gloucester",
+    "Year": "2020",
+    "No of NJCEP Programs": "48",
+    "Annual Electric Savings (kWh)": "1625513",
+    "Annual Gas Savings (Therms)": "16886.65"
+  },
+  {
+    "County": "Gloucester",
+    "Year": "2021",
+    "No of NJCEP Programs": "10",
+    "Annual Electric Savings (kWh)": "386653",
+    "Annual Gas Savings (Therms)": "-625.26"
+  },
+  {
+    "County": "Hudson",
+    "Year": "2008",
+    "No of NJCEP Programs": "0",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Hudson",
+    "Year": "2009",
+    "No of NJCEP Programs": "0",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Hudson",
+    "Year": "2010",
+    "No of NJCEP Programs": "12",
+    "Annual Electric Savings (kWh)": "20914.69",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Hudson",
+    "Year": "2011",
+    "No of NJCEP Programs": "55",
+    "Annual Electric Savings (kWh)": "3846355.48",
+    "Annual Gas Savings (Therms)": "7176.96"
+  },
+  {
+    "County": "Hudson",
+    "Year": "2012",
+    "No of NJCEP Programs": "5",
+    "Annual Electric Savings (kWh)": "191787.52",
+    "Annual Gas Savings (Therms)": "3989.12"
+  },
+  {
+    "County": "Hudson",
+    "Year": "2013",
+    "No of NJCEP Programs": "0",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Hudson",
+    "Year": "2014",
+    "No of NJCEP Programs": "5",
+    "Annual Electric Savings (kWh)": "1384888.56",
+    "Annual Gas Savings (Therms)": "143312"
+  },
+  {
+    "County": "Hudson",
+    "Year": "2015",
+    "No of NJCEP Programs": "11",
+    "Annual Electric Savings (kWh)": "692909.71",
+    "Annual Gas Savings (Therms)": "3822.95"
+  },
+  {
+    "County": "Hudson",
+    "Year": "2016",
+    "No of NJCEP Programs": "9",
+    "Annual Electric Savings (kWh)": "276302.97",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Hudson",
+    "Year": "2017",
+    "No of NJCEP Programs": "3",
+    "Annual Electric Savings (kWh)": "25416",
+    "Annual Gas Savings (Therms)": "11880"
+  },
+  {
+    "County": "Hudson",
+    "Year": "2018",
+    "No of NJCEP Programs": "26",
+    "Annual Electric Savings (kWh)": "33006",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Hudson",
+    "Year": "2019",
+    "No of NJCEP Programs": "16",
+    "Annual Electric Savings (kWh)": "600073",
+    "Annual Gas Savings (Therms)": "4145.55"
+  },
+  {
+    "County": "Hudson",
+    "Year": "2020",
+    "No of NJCEP Programs": "8",
+    "Annual Electric Savings (kWh)": "69853",
+    "Annual Gas Savings (Therms)": "57.13"
+  },
+  {
+    "County": "Hudson",
+    "Year": "2021",
+    "No of NJCEP Programs": "8",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Hunterdon",
+    "Year": "2008",
+    "No of NJCEP Programs": "0",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Hunterdon",
+    "Year": "2009",
+    "No of NJCEP Programs": "7",
+    "Annual Electric Savings (kWh)": "7243.69",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Hunterdon",
+    "Year": "2010",
+    "No of NJCEP Programs": "13",
+    "Annual Electric Savings (kWh)": "6850.53",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Hunterdon",
+    "Year": "2011",
+    "No of NJCEP Programs": "45",
+    "Annual Electric Savings (kWh)": "627617.12",
+    "Annual Gas Savings (Therms)": "52477.3"
+  },
+  {
+    "County": "Hunterdon",
+    "Year": "2012",
+    "No of NJCEP Programs": "21",
+    "Annual Electric Savings (kWh)": "174847.19",
+    "Annual Gas Savings (Therms)": "-4761.35"
+  },
+  {
+    "County": "Hunterdon",
+    "Year": "2013",
+    "No of NJCEP Programs": "9",
+    "Annual Electric Savings (kWh)": "112070.46",
+    "Annual Gas Savings (Therms)": "2600"
+  },
+  {
+    "County": "Hunterdon",
+    "Year": "2014",
+    "No of NJCEP Programs": "11",
+    "Annual Electric Savings (kWh)": "113099.66",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Hunterdon",
+    "Year": "2015",
+    "No of NJCEP Programs": "12",
+    "Annual Electric Savings (kWh)": "1232529.99",
+    "Annual Gas Savings (Therms)": "910"
+  },
+  {
+    "County": "Hunterdon",
+    "Year": "2016",
+    "No of NJCEP Programs": "3",
+    "Annual Electric Savings (kWh)": "30023",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Hunterdon",
+    "Year": "2017",
+    "No of NJCEP Programs": "10",
+    "Annual Electric Savings (kWh)": "1624115",
+    "Annual Gas Savings (Therms)": "-31933.58"
+  },
+  {
+    "County": "Hunterdon",
+    "Year": "2018",
+    "No of NJCEP Programs": "11",
+    "Annual Electric Savings (kWh)": "1314275",
+    "Annual Gas Savings (Therms)": "45589.52"
+  },
+  {
+    "County": "Hunterdon",
+    "Year": "2019",
+    "No of NJCEP Programs": "18",
+    "Annual Electric Savings (kWh)": "1049006",
+    "Annual Gas Savings (Therms)": "9111.03"
+  },
+  {
+    "County": "Hunterdon",
+    "Year": "2020",
+    "No of NJCEP Programs": "19",
+    "Annual Electric Savings (kWh)": "1447827",
+    "Annual Gas Savings (Therms)": "25232.15"
+  },
+  {
+    "County": "Hunterdon",
+    "Year": "2021",
+    "No of NJCEP Programs": "2",
+    "Annual Electric Savings (kWh)": "26144",
+    "Annual Gas Savings (Therms)": "164.74"
+  },
+  {
+    "County": "Mercer",
+    "Year": "2008",
+    "No of NJCEP Programs": "0",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Mercer",
+    "Year": "2009",
+    "No of NJCEP Programs": "3",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Mercer",
+    "Year": "2010",
+    "No of NJCEP Programs": "34",
+    "Annual Electric Savings (kWh)": "109361.31",
+    "Annual Gas Savings (Therms)": "3000"
+  },
+  {
+    "County": "Mercer",
+    "Year": "2011",
+    "No of NJCEP Programs": "37",
+    "Annual Electric Savings (kWh)": "290444.6",
+    "Annual Gas Savings (Therms)": "9374.97"
+  },
+  {
+    "County": "Mercer",
+    "Year": "2012",
+    "No of NJCEP Programs": "24",
+    "Annual Electric Savings (kWh)": "507595.31",
+    "Annual Gas Savings (Therms)": "6124.69"
+  },
+  {
+    "County": "Mercer",
+    "Year": "2013",
+    "No of NJCEP Programs": "15",
+    "Annual Electric Savings (kWh)": "58001.6",
+    "Annual Gas Savings (Therms)": "4544.99"
+  },
+  {
+    "County": "Mercer",
+    "Year": "2014",
+    "No of NJCEP Programs": "6",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Mercer",
+    "Year": "2015",
+    "No of NJCEP Programs": "22",
+    "Annual Electric Savings (kWh)": "934229.16",
+    "Annual Gas Savings (Therms)": "64405.62"
+  },
+  {
+    "County": "Mercer",
+    "Year": "2016",
+    "No of NJCEP Programs": "10",
+    "Annual Electric Savings (kWh)": "707755.96",
+    "Annual Gas Savings (Therms)": "19870.03"
+  },
+  {
+    "County": "Mercer",
+    "Year": "2017",
+    "No of NJCEP Programs": "1",
+    "Annual Electric Savings (kWh)": "106207",
+    "Annual Gas Savings (Therms)": "1499.03"
+  },
+  {
+    "County": "Mercer",
+    "Year": "2018",
+    "No of NJCEP Programs": "14",
+    "Annual Electric Savings (kWh)": "851706",
+    "Annual Gas Savings (Therms)": "23752.24"
+  },
+  {
+    "County": "Mercer",
+    "Year": "2019",
+    "No of NJCEP Programs": "47",
+    "Annual Electric Savings (kWh)": "1013599",
+    "Annual Gas Savings (Therms)": "51689.96"
+  },
+  {
+    "County": "Mercer",
+    "Year": "2020",
+    "No of NJCEP Programs": "43",
+    "Annual Electric Savings (kWh)": "1778981",
+    "Annual Gas Savings (Therms)": "185114.04"
+  },
+  {
+    "County": "Mercer",
+    "Year": "2021",
+    "No of NJCEP Programs": "19",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Middlesex",
+    "Year": "2008",
+    "No of NJCEP Programs": "3",
+    "Annual Electric Savings (kWh)": "650.52",
+    "Annual Gas Savings (Therms)": "7509.03"
+  },
+  {
+    "County": "Middlesex",
+    "Year": "2009",
+    "No of NJCEP Programs": "69",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "193954.2"
+  },
+  {
+    "County": "Middlesex",
+    "Year": "2010",
+    "No of NJCEP Programs": "50",
+    "Annual Electric Savings (kWh)": "987351.41",
+    "Annual Gas Savings (Therms)": "16265.43"
+  },
+  {
+    "County": "Middlesex",
+    "Year": "2011",
+    "No of NJCEP Programs": "61",
+    "Annual Electric Savings (kWh)": "1312837.33",
+    "Annual Gas Savings (Therms)": "72738.86"
+  },
+  {
+    "County": "Middlesex",
+    "Year": "2012",
+    "No of NJCEP Programs": "105",
+    "Annual Electric Savings (kWh)": "1717772.51",
+    "Annual Gas Savings (Therms)": "64445.39"
+  },
+  {
+    "County": "Middlesex",
+    "Year": "2013",
+    "No of NJCEP Programs": "46",
+    "Annual Electric Savings (kWh)": "1494880.87",
+    "Annual Gas Savings (Therms)": "32795.72"
+  },
+  {
+    "County": "Middlesex",
+    "Year": "2014",
+    "No of NJCEP Programs": "22",
+    "Annual Electric Savings (kWh)": "380820.09",
+    "Annual Gas Savings (Therms)": "32520.34"
+  },
+  {
+    "County": "Middlesex",
+    "Year": "2015",
+    "No of NJCEP Programs": "53",
+    "Annual Electric Savings (kWh)": "2660031.06",
+    "Annual Gas Savings (Therms)": "78024.12"
+  },
+  {
+    "County": "Middlesex",
+    "Year": "2016",
+    "No of NJCEP Programs": "44",
+    "Annual Electric Savings (kWh)": "859767.89",
+    "Annual Gas Savings (Therms)": "74924.58"
+  },
+  {
+    "County": "Middlesex",
+    "Year": "2017",
+    "No of NJCEP Programs": "18",
+    "Annual Electric Savings (kWh)": "1091431",
+    "Annual Gas Savings (Therms)": "47473.89"
+  },
+  {
+    "County": "Middlesex",
+    "Year": "2018",
+    "No of NJCEP Programs": "104",
+    "Annual Electric Savings (kWh)": "2078691",
+    "Annual Gas Savings (Therms)": "45032.63"
+  },
+  {
+    "County": "Middlesex",
+    "Year": "2019",
+    "No of NJCEP Programs": "50",
+    "Annual Electric Savings (kWh)": "1346673",
+    "Annual Gas Savings (Therms)": "47457.21"
+  },
+  {
+    "County": "Middlesex",
+    "Year": "2020",
+    "No of NJCEP Programs": "104",
+    "Annual Electric Savings (kWh)": "1974648",
+    "Annual Gas Savings (Therms)": "42936.6"
+  },
+  {
+    "County": "Middlesex",
+    "Year": "2021",
+    "No of NJCEP Programs": "8",
+    "Annual Electric Savings (kWh)": "184102",
+    "Annual Gas Savings (Therms)": "20030.11"
+  },
+  {
+    "County": "Monmouth",
+    "Year": "2008",
+    "No of NJCEP Programs": "1",
+    "Annual Electric Savings (kWh)": "1353.13",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Monmouth",
+    "Year": "2009",
+    "No of NJCEP Programs": "61",
+    "Annual Electric Savings (kWh)": "51433.17",
+    "Annual Gas Savings (Therms)": "195"
+  },
+  {
+    "County": "Monmouth",
+    "Year": "2010",
+    "No of NJCEP Programs": "65",
+    "Annual Electric Savings (kWh)": "340579.37",
+    "Annual Gas Savings (Therms)": "579.72"
+  },
+  {
+    "County": "Monmouth",
+    "Year": "2011",
+    "No of NJCEP Programs": "128",
+    "Annual Electric Savings (kWh)": "2376497.73",
+    "Annual Gas Savings (Therms)": "35095.22"
+  },
+  {
+    "County": "Monmouth",
+    "Year": "2012",
+    "No of NJCEP Programs": "111",
+    "Annual Electric Savings (kWh)": "1936048.34",
+    "Annual Gas Savings (Therms)": "39375.38"
+  },
+  {
+    "County": "Monmouth",
+    "Year": "2013",
+    "No of NJCEP Programs": "32",
+    "Annual Electric Savings (kWh)": "434842.73",
+    "Annual Gas Savings (Therms)": "14756.38"
+  },
+  {
+    "County": "Monmouth",
+    "Year": "2014",
+    "No of NJCEP Programs": "62",
+    "Annual Electric Savings (kWh)": "499405.28",
+    "Annual Gas Savings (Therms)": "12043.58"
+  },
+  {
+    "County": "Monmouth",
+    "Year": "2015",
+    "No of NJCEP Programs": "34",
+    "Annual Electric Savings (kWh)": "1083872.51",
+    "Annual Gas Savings (Therms)": "78236.94"
+  },
+  {
+    "County": "Monmouth",
+    "Year": "2016",
+    "No of NJCEP Programs": "16",
+    "Annual Electric Savings (kWh)": "571667.38",
+    "Annual Gas Savings (Therms)": "23122.82"
+  },
+  {
+    "County": "Monmouth",
+    "Year": "2017",
+    "No of NJCEP Programs": "30",
+    "Annual Electric Savings (kWh)": "283274",
+    "Annual Gas Savings (Therms)": "42152.95"
+  },
+  {
+    "County": "Monmouth",
+    "Year": "2018",
+    "No of NJCEP Programs": "28",
+    "Annual Electric Savings (kWh)": "406170",
+    "Annual Gas Savings (Therms)": "1294.7"
+  },
+  {
+    "County": "Monmouth",
+    "Year": "2019",
+    "No of NJCEP Programs": "120",
+    "Annual Electric Savings (kWh)": "6330474",
+    "Annual Gas Savings (Therms)": "601791.33"
+  },
+  {
+    "County": "Monmouth",
+    "Year": "2020",
+    "No of NJCEP Programs": "126",
+    "Annual Electric Savings (kWh)": "5174430",
+    "Annual Gas Savings (Therms)": "85847.04"
+  },
+  {
+    "County": "Monmouth",
+    "Year": "2021",
+    "No of NJCEP Programs": "33",
+    "Annual Electric Savings (kWh)": "890942",
+    "Annual Gas Savings (Therms)": "56504.5"
+  },
+  {
+    "County": "Morris",
+    "Year": "2008",
+    "No of NJCEP Programs": "1",
+    "Annual Electric Savings (kWh)": "1195.74",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Morris",
+    "Year": "2009",
+    "No of NJCEP Programs": "38",
+    "Annual Electric Savings (kWh)": "9962.7",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Morris",
+    "Year": "2010",
+    "No of NJCEP Programs": "28",
+    "Annual Electric Savings (kWh)": "310900.44",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Morris",
+    "Year": "2011",
+    "No of NJCEP Programs": "106",
+    "Annual Electric Savings (kWh)": "2711679.98",
+    "Annual Gas Savings (Therms)": "134741.49"
+  },
+  {
+    "County": "Morris",
+    "Year": "2012",
+    "No of NJCEP Programs": "51",
+    "Annual Electric Savings (kWh)": "468756.97",
+    "Annual Gas Savings (Therms)": "39438.38"
+  },
+  {
+    "County": "Morris",
+    "Year": "2013",
+    "No of NJCEP Programs": "16",
+    "Annual Electric Savings (kWh)": "5475533.39",
+    "Annual Gas Savings (Therms)": "2980.82"
+  },
+  {
+    "County": "Morris",
+    "Year": "2014",
+    "No of NJCEP Programs": "40",
+    "Annual Electric Savings (kWh)": "811386.88",
+    "Annual Gas Savings (Therms)": "36439.9"
+  },
+  {
+    "County": "Morris",
+    "Year": "2015",
+    "No of NJCEP Programs": "18",
+    "Annual Electric Savings (kWh)": "1339401.49",
+    "Annual Gas Savings (Therms)": "4526.83"
+  },
+  {
+    "County": "Morris",
+    "Year": "2016",
+    "No of NJCEP Programs": "13",
+    "Annual Electric Savings (kWh)": "561097",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Morris",
+    "Year": "2017",
+    "No of NJCEP Programs": "27",
+    "Annual Electric Savings (kWh)": "1419201",
+    "Annual Gas Savings (Therms)": "25645.9"
+  },
+  {
+    "County": "Morris",
+    "Year": "2018",
+    "No of NJCEP Programs": "92",
+    "Annual Electric Savings (kWh)": "6027103",
+    "Annual Gas Savings (Therms)": "358555.91"
+  },
+  {
+    "County": "Morris",
+    "Year": "2019",
+    "No of NJCEP Programs": "58",
+    "Annual Electric Savings (kWh)": "3841277",
+    "Annual Gas Savings (Therms)": "125779.71"
+  },
+  {
+    "County": "Morris",
+    "Year": "2020",
+    "No of NJCEP Programs": "55",
+    "Annual Electric Savings (kWh)": "1652293",
+    "Annual Gas Savings (Therms)": "17220.59"
+  },
+  {
+    "County": "Morris",
+    "Year": "2021",
+    "No of NJCEP Programs": "10",
+    "Annual Electric Savings (kWh)": "307996",
+    "Annual Gas Savings (Therms)": "8646.45"
+  },
+  {
+    "County": "Ocean",
+    "Year": "2008",
+    "No of NJCEP Programs": "3",
+    "Annual Electric Savings (kWh)": "40637.41",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Ocean",
+    "Year": "2009",
+    "No of NJCEP Programs": "16",
+    "Annual Electric Savings (kWh)": "40725.3",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Ocean",
+    "Year": "2010",
+    "No of NJCEP Programs": "34",
+    "Annual Electric Savings (kWh)": "60298.86",
+    "Annual Gas Savings (Therms)": "9795.43"
+  },
+  {
+    "County": "Ocean",
+    "Year": "2011",
+    "No of NJCEP Programs": "95",
+    "Annual Electric Savings (kWh)": "1073814.64",
+    "Annual Gas Savings (Therms)": "12066.39"
+  },
+  {
+    "County": "Ocean",
+    "Year": "2012",
+    "No of NJCEP Programs": "44",
+    "Annual Electric Savings (kWh)": "1020458.94",
+    "Annual Gas Savings (Therms)": "6464.39"
+  },
+  {
+    "County": "Ocean",
+    "Year": "2013",
+    "No of NJCEP Programs": "27",
+    "Annual Electric Savings (kWh)": "1259651.47",
+    "Annual Gas Savings (Therms)": "4677.37"
+  },
+  {
+    "County": "Ocean",
+    "Year": "2014",
+    "No of NJCEP Programs": "42",
+    "Annual Electric Savings (kWh)": "446653.64",
+    "Annual Gas Savings (Therms)": "46161.17"
+  },
+  {
+    "County": "Ocean",
+    "Year": "2015",
+    "No of NJCEP Programs": "43",
+    "Annual Electric Savings (kWh)": "1153964.44",
+    "Annual Gas Savings (Therms)": "42634.41"
+  },
+  {
+    "County": "Ocean",
+    "Year": "2016",
+    "No of NJCEP Programs": "17",
+    "Annual Electric Savings (kWh)": "506715.62",
+    "Annual Gas Savings (Therms)": "9228.41"
+  },
+  {
+    "County": "Ocean",
+    "Year": "2017",
+    "No of NJCEP Programs": "28",
+    "Annual Electric Savings (kWh)": "385640",
+    "Annual Gas Savings (Therms)": "29653.64"
+  },
+  {
+    "County": "Ocean",
+    "Year": "2018",
+    "No of NJCEP Programs": "75",
+    "Annual Electric Savings (kWh)": "546273",
+    "Annual Gas Savings (Therms)": "37602.71"
+  },
+  {
+    "County": "Ocean",
+    "Year": "2019",
+    "No of NJCEP Programs": "52",
+    "Annual Electric Savings (kWh)": "783905",
+    "Annual Gas Savings (Therms)": "28865.83"
+  },
+  {
+    "County": "Ocean",
+    "Year": "2020",
+    "No of NJCEP Programs": "64",
+    "Annual Electric Savings (kWh)": "1602162",
+    "Annual Gas Savings (Therms)": "28996.84"
+  },
+  {
+    "County": "Ocean",
+    "Year": "2021",
+    "No of NJCEP Programs": "48",
+    "Annual Electric Savings (kWh)": "1791600",
+    "Annual Gas Savings (Therms)": "18077.33"
+  },
+  {
+    "County": "Passaic",
+    "Year": "2008",
+    "No of NJCEP Programs": "0",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Passaic",
+    "Year": "2009",
+    "No of NJCEP Programs": "8",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Passaic",
+    "Year": "2010",
+    "No of NJCEP Programs": "15",
+    "Annual Electric Savings (kWh)": "439.95",
+    "Annual Gas Savings (Therms)": "12863.55"
+  },
+  {
+    "County": "Passaic",
+    "Year": "2011",
+    "No of NJCEP Programs": "42",
+    "Annual Electric Savings (kWh)": "883223.89",
+    "Annual Gas Savings (Therms)": "4560.48"
+  },
+  {
+    "County": "Passaic",
+    "Year": "2012",
+    "No of NJCEP Programs": "29",
+    "Annual Electric Savings (kWh)": "715033.37",
+    "Annual Gas Savings (Therms)": "15360.5"
+  },
+  {
+    "County": "Passaic",
+    "Year": "2013",
+    "No of NJCEP Programs": "38",
+    "Annual Electric Savings (kWh)": "138375.09",
+    "Annual Gas Savings (Therms)": "12104.16"
+  },
+  {
+    "County": "Passaic",
+    "Year": "2014",
+    "No of NJCEP Programs": "17",
+    "Annual Electric Savings (kWh)": "167089.65",
+    "Annual Gas Savings (Therms)": "43301.34"
+  },
+  {
+    "County": "Passaic",
+    "Year": "2015",
+    "No of NJCEP Programs": "15",
+    "Annual Electric Savings (kWh)": "333853.13",
+    "Annual Gas Savings (Therms)": "4728.1"
+  },
+  {
+    "County": "Passaic",
+    "Year": "2016",
+    "No of NJCEP Programs": "8",
+    "Annual Electric Savings (kWh)": "23588.97",
+    "Annual Gas Savings (Therms)": "33972.03"
+  },
+  {
+    "County": "Passaic",
+    "Year": "2017",
+    "No of NJCEP Programs": "2",
+    "Annual Electric Savings (kWh)": "17843",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Passaic",
+    "Year": "2018",
+    "No of NJCEP Programs": "22",
+    "Annual Electric Savings (kWh)": "277970",
+    "Annual Gas Savings (Therms)": "52005.28"
+  },
+  {
+    "County": "Passaic",
+    "Year": "2019",
+    "No of NJCEP Programs": "33",
+    "Annual Electric Savings (kWh)": "987507",
+    "Annual Gas Savings (Therms)": "55336.47"
+  },
+  {
+    "County": "Passaic",
+    "Year": "2020",
+    "No of NJCEP Programs": "122",
+    "Annual Electric Savings (kWh)": "4508204",
+    "Annual Gas Savings (Therms)": "196672.59"
+  },
+  {
+    "County": "Passaic",
+    "Year": "2021",
+    "No of NJCEP Programs": "2",
+    "Annual Electric Savings (kWh)": "23401",
+    "Annual Gas Savings (Therms)": "-53.82"
+  },
+  {
+    "County": "Salem",
+    "Year": "2008",
+    "No of NJCEP Programs": "0",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Salem",
+    "Year": "2009",
+    "No of NJCEP Programs": "0",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Salem",
+    "Year": "2010",
+    "No of NJCEP Programs": "5",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "30188"
+  },
+  {
+    "County": "Salem",
+    "Year": "2011",
+    "No of NJCEP Programs": "3",
+    "Annual Electric Savings (kWh)": "39307.3",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Salem",
+    "Year": "2012",
+    "No of NJCEP Programs": "24",
+    "Annual Electric Savings (kWh)": "348978.14",
+    "Annual Gas Savings (Therms)": "991.44"
+  },
+  {
+    "County": "Salem",
+    "Year": "2013",
+    "No of NJCEP Programs": "1",
+    "Annual Electric Savings (kWh)": "408889",
+    "Annual Gas Savings (Therms)": "18226"
+  },
+  {
+    "County": "Salem",
+    "Year": "2014",
+    "No of NJCEP Programs": "10",
+    "Annual Electric Savings (kWh)": "12348.78",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Salem",
+    "Year": "2015",
+    "No of NJCEP Programs": "0",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Salem",
+    "Year": "2016",
+    "No of NJCEP Programs": "2",
+    "Annual Electric Savings (kWh)": "5566",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Salem",
+    "Year": "2017",
+    "No of NJCEP Programs": "0",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Salem",
+    "Year": "2018",
+    "No of NJCEP Programs": "5",
+    "Annual Electric Savings (kWh)": "121385",
+    "Annual Gas Savings (Therms)": "18054.24"
+  },
+  {
+    "County": "Salem",
+    "Year": "2019",
+    "No of NJCEP Programs": "14",
+    "Annual Electric Savings (kWh)": "77039",
+    "Annual Gas Savings (Therms)": "-113.06"
+  },
+  {
+    "County": "Salem",
+    "Year": "2020",
+    "No of NJCEP Programs": "21",
+    "Annual Electric Savings (kWh)": "872867",
+    "Annual Gas Savings (Therms)": "-3232.18"
+  },
+  {
+    "County": "Salem",
+    "Year": "2021",
+    "No of NJCEP Programs": "9",
+    "Annual Electric Savings (kWh)": "127310",
+    "Annual Gas Savings (Therms)": "15843.14"
+  },
+  {
+    "County": "Somerset",
+    "Year": "2008",
+    "No of NJCEP Programs": "8",
+    "Annual Electric Savings (kWh)": "466397.28",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Somerset",
+    "Year": "2009",
+    "No of NJCEP Programs": "4",
+    "Annual Electric Savings (kWh)": "10479.45",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Somerset",
+    "Year": "2010",
+    "No of NJCEP Programs": "11",
+    "Annual Electric Savings (kWh)": "44109.29",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Somerset",
+    "Year": "2011",
+    "No of NJCEP Programs": "68",
+    "Annual Electric Savings (kWh)": "1307024.54",
+    "Annual Gas Savings (Therms)": "35013.3"
+  },
+  {
+    "County": "Somerset",
+    "Year": "2012",
+    "No of NJCEP Programs": "48",
+    "Annual Electric Savings (kWh)": "1186513.36",
+    "Annual Gas Savings (Therms)": "40269.13"
+  },
+  {
+    "County": "Somerset",
+    "Year": "2013",
+    "No of NJCEP Programs": "10",
+    "Annual Electric Savings (kWh)": "222075.26",
+    "Annual Gas Savings (Therms)": "8550"
+  },
+  {
+    "County": "Somerset",
+    "Year": "2014",
+    "No of NJCEP Programs": "15",
+    "Annual Electric Savings (kWh)": "845312.03",
+    "Annual Gas Savings (Therms)": "53276.01"
+  },
+  {
+    "County": "Somerset",
+    "Year": "2015",
+    "No of NJCEP Programs": "5",
+    "Annual Electric Savings (kWh)": "510780.14",
+    "Annual Gas Savings (Therms)": "3561.37"
+  },
+  {
+    "County": "Somerset",
+    "Year": "2016",
+    "No of NJCEP Programs": "15",
+    "Annual Electric Savings (kWh)": "1252515",
+    "Annual Gas Savings (Therms)": "100381.8"
+  },
+  {
+    "County": "Somerset",
+    "Year": "2017",
+    "No of NJCEP Programs": "18",
+    "Annual Electric Savings (kWh)": "411145",
+    "Annual Gas Savings (Therms)": "4919.71"
+  },
+  {
+    "County": "Somerset",
+    "Year": "2018",
+    "No of NJCEP Programs": "26",
+    "Annual Electric Savings (kWh)": "957694",
+    "Annual Gas Savings (Therms)": "63579.47"
+  },
+  {
+    "County": "Somerset",
+    "Year": "2019",
+    "No of NJCEP Programs": "35",
+    "Annual Electric Savings (kWh)": "1494170",
+    "Annual Gas Savings (Therms)": "12754.62"
+  },
+  {
+    "County": "Somerset",
+    "Year": "2020",
+    "No of NJCEP Programs": "26",
+    "Annual Electric Savings (kWh)": "1196026",
+    "Annual Gas Savings (Therms)": "62250.07"
+  },
+  {
+    "County": "Somerset",
+    "Year": "2021",
+    "No of NJCEP Programs": "4",
+    "Annual Electric Savings (kWh)": "127040",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Sussex",
+    "Year": "2008",
+    "No of NJCEP Programs": "0",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Sussex",
+    "Year": "2009",
+    "No of NJCEP Programs": "1",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Sussex",
+    "Year": "2010",
+    "No of NJCEP Programs": "14",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "714.94"
+  },
+  {
+    "County": "Sussex",
+    "Year": "2011",
+    "No of NJCEP Programs": "22",
+    "Annual Electric Savings (kWh)": "677625.03",
+    "Annual Gas Savings (Therms)": "8648.5"
+  },
+  {
+    "County": "Sussex",
+    "Year": "2012",
+    "No of NJCEP Programs": "26",
+    "Annual Electric Savings (kWh)": "452254.4",
+    "Annual Gas Savings (Therms)": "3465.44"
+  },
+  {
+    "County": "Sussex",
+    "Year": "2013",
+    "No of NJCEP Programs": "10",
+    "Annual Electric Savings (kWh)": "190980.68",
+    "Annual Gas Savings (Therms)": "14703.55"
+  },
+  {
+    "County": "Sussex",
+    "Year": "2014",
+    "No of NJCEP Programs": "4",
+    "Annual Electric Savings (kWh)": "123237.43",
+    "Annual Gas Savings (Therms)": "15540.59"
+  },
+  {
+    "County": "Sussex",
+    "Year": "2015",
+    "No of NJCEP Programs": "8",
+    "Annual Electric Savings (kWh)": "326907.21",
+    "Annual Gas Savings (Therms)": "5846.63"
+  },
+  {
+    "County": "Sussex",
+    "Year": "2016",
+    "No of NJCEP Programs": "3",
+    "Annual Electric Savings (kWh)": "3611312",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Sussex",
+    "Year": "2017",
+    "No of NJCEP Programs": "1",
+    "Annual Electric Savings (kWh)": "12549",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Sussex",
+    "Year": "2018",
+    "No of NJCEP Programs": "5",
+    "Annual Electric Savings (kWh)": "191624",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Sussex",
+    "Year": "2019",
+    "No of NJCEP Programs": "16",
+    "Annual Electric Savings (kWh)": "1123589",
+    "Annual Gas Savings (Therms)": "5014.57"
+  },
+  {
+    "County": "Sussex",
+    "Year": "2020",
+    "No of NJCEP Programs": "8",
+    "Annual Electric Savings (kWh)": "890767",
+    "Annual Gas Savings (Therms)": "-2545.28"
+  },
+  {
+    "County": "Sussex",
+    "Year": "2021",
+    "No of NJCEP Programs": "11",
+    "Annual Electric Savings (kWh)": "517011",
+    "Annual Gas Savings (Therms)": "12908.78"
+  },
+  {
+    "County": "Union",
+    "Year": "2008",
+    "No of NJCEP Programs": "3",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "1401.22"
+  },
+  {
+    "County": "Union",
+    "Year": "2009",
+    "No of NJCEP Programs": "24",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "17175.02"
+  },
+  {
+    "County": "Union",
+    "Year": "2010",
+    "No of NJCEP Programs": "22",
+    "Annual Electric Savings (kWh)": "270009.6",
+    "Annual Gas Savings (Therms)": "12209.7"
+  },
+  {
+    "County": "Union",
+    "Year": "2011",
+    "No of NJCEP Programs": "54",
+    "Annual Electric Savings (kWh)": "583611.41",
+    "Annual Gas Savings (Therms)": "71446.04"
+  },
+  {
+    "County": "Union",
+    "Year": "2012",
+    "No of NJCEP Programs": "21",
+    "Annual Electric Savings (kWh)": "1098536.12",
+    "Annual Gas Savings (Therms)": "11173.34"
+  },
+  {
+    "County": "Union",
+    "Year": "2013",
+    "No of NJCEP Programs": "16",
+    "Annual Electric Savings (kWh)": "21711.42",
+    "Annual Gas Savings (Therms)": "2374.66"
+  },
+  {
+    "County": "Union",
+    "Year": "2014",
+    "No of NJCEP Programs": "7",
+    "Annual Electric Savings (kWh)": "258719.78",
+    "Annual Gas Savings (Therms)": "8668.7"
+  },
+  {
+    "County": "Union",
+    "Year": "2015",
+    "No of NJCEP Programs": "19",
+    "Annual Electric Savings (kWh)": "66803.15",
+    "Annual Gas Savings (Therms)": "25334.16"
+  },
+  {
+    "County": "Union",
+    "Year": "2016",
+    "No of NJCEP Programs": "20",
+    "Annual Electric Savings (kWh)": "583650.07",
+    "Annual Gas Savings (Therms)": "25756.21"
+  },
+  {
+    "County": "Union",
+    "Year": "2017",
+    "No of NJCEP Programs": "13",
+    "Annual Electric Savings (kWh)": "297566",
+    "Annual Gas Savings (Therms)": "77784.57"
+  },
+  {
+    "County": "Union",
+    "Year": "2018",
+    "No of NJCEP Programs": "25",
+    "Annual Electric Savings (kWh)": "431190",
+    "Annual Gas Savings (Therms)": "5919.57"
+  },
+  {
+    "County": "Union",
+    "Year": "2019",
+    "No of NJCEP Programs": "27",
+    "Annual Electric Savings (kWh)": "483304",
+    "Annual Gas Savings (Therms)": "11878.21"
+  },
+  {
+    "County": "Union",
+    "Year": "2020",
+    "No of NJCEP Programs": "49",
+    "Annual Electric Savings (kWh)": "483575",
+    "Annual Gas Savings (Therms)": "10657.87"
+  },
+  {
+    "County": "Union",
+    "Year": "2021",
+    "No of NJCEP Programs": "14",
+    "Annual Electric Savings (kWh)": "1034216",
+    "Annual Gas Savings (Therms)": "30314.44"
+  },
+  {
+    "County": "Warren",
+    "Year": "2008",
+    "No of NJCEP Programs": "1",
+    "Annual Electric Savings (kWh)": "3177.54",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Warren",
+    "Year": "2009",
+    "No of NJCEP Programs": "6",
+    "Annual Electric Savings (kWh)": "0",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Warren",
+    "Year": "2010",
+    "No of NJCEP Programs": "4",
+    "Annual Electric Savings (kWh)": "15443.4",
+    "Annual Gas Savings (Therms)": "12168.61"
+  },
+  {
+    "County": "Warren",
+    "Year": "2011",
+    "No of NJCEP Programs": "27",
+    "Annual Electric Savings (kWh)": "403934.5",
+    "Annual Gas Savings (Therms)": "8268.76"
+  },
+  {
+    "County": "Warren",
+    "Year": "2012",
+    "No of NJCEP Programs": "37",
+    "Annual Electric Savings (kWh)": "815537.39",
+    "Annual Gas Savings (Therms)": "28555.78"
+  },
+  {
+    "County": "Warren",
+    "Year": "2013",
+    "No of NJCEP Programs": "9",
+    "Annual Electric Savings (kWh)": "387517.98",
+    "Annual Gas Savings (Therms)": "5580.79"
+  },
+  {
+    "County": "Warren",
+    "Year": "2014",
+    "No of NJCEP Programs": "10",
+    "Annual Electric Savings (kWh)": "155394.27",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Warren",
+    "Year": "2015",
+    "No of NJCEP Programs": "8",
+    "Annual Electric Savings (kWh)": "348724.11",
+    "Annual Gas Savings (Therms)": "14710"
+  },
+  {
+    "County": "Warren",
+    "Year": "2016",
+    "No of NJCEP Programs": "6",
+    "Annual Electric Savings (kWh)": "264325.42",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Warren",
+    "Year": "2017",
+    "No of NJCEP Programs": "1",
+    "Annual Electric Savings (kWh)": "1656",
+    "Annual Gas Savings (Therms)": "0"
+  },
+  {
+    "County": "Warren",
+    "Year": "2018",
+    "No of NJCEP Programs": "13",
+    "Annual Electric Savings (kWh)": "387274",
+    "Annual Gas Savings (Therms)": "1425.21"
+  },
+  {
+    "County": "Warren",
+    "Year": "2019",
+    "No of NJCEP Programs": "20",
+    "Annual Electric Savings (kWh)": "555757",
+    "Annual Gas Savings (Therms)": "10700.91"
+  },
+  {
+    "County": "Warren",
+    "Year": "2020",
+    "No of NJCEP Programs": "10",
+    "Annual Electric Savings (kWh)": "384624",
+    "Annual Gas Savings (Therms)": "946.92"
+  },
+  {
+    "County": "Warren",
+    "Year": "2021",
+    "No of NJCEP Programs": "1",
+    "Annual Electric Savings (kWh)": "144533",
+    "Annual Gas Savings (Therms)": "11138.65"
+  }
+]

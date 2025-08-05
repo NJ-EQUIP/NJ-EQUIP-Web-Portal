@@ -1,11 +1,22 @@
-import React, { useState } from "react"
-import { calculateEnergyBurden } from "../utils/energyCalc"
+import React, { useState, useEffect } from "react"
 
-// Add result comparison to NJ average to show if overburdend or not
 const Calculator = () => {
     const [result, setResult] = useState(null)
+    const [dataset, setDataset] = useState([])
 
-    const handleSubmit = async (e) => {
+    useEffect(() => {
+        // Load static JSON once on mount
+        fetch('/data/Energy_Burden_with_ZIP_Codes.json')
+            .then(res => res.json())
+            .then(data => setDataset(data))
+            .catch(err => console.error('Failed to load JSON:', err))
+    }, [])
+
+    const normalizeCounty = (str) => {
+        return str?.toLowerCase().replace(/\s+county$/, '').trim()
+    }
+
+    const handleSubmit = (e) => {
         e.preventDefault()
         const input = e.target.location.value.trim()
 
@@ -15,34 +26,36 @@ const Calculator = () => {
         }
 
         const isZip = /^\d{5}$/.test(input)
-        const queryParam = isZip ? `zip=${input}` : `county=${encodeURIComponent(input)}`
+        const zip = input
+        const county = input
 
-        try {
-            const res = await fetch(`/.netlify/functions/energy-burden-zip?${queryParam}`)
-            const text = await res.text()
+        let match = null
 
-            if (!res.ok) {
-                setResult({ error: 'Request failed' })
-                return
-            }
-
-            const data = JSON.parse(text)
-
-            setResult({
-                energyBurdenPercent: data['Energy Burden Pct Income'] + '%',
-                county: data['County Name'],
-                zip: isZip ? input : '',
-                message: isZip
-                    ? `Energy burden for ZIP ${input} (in ${data['County Name']} County)`
-                    : `Energy burden for ${data['County Name']} County`,
-                display: `<p>This value represents the average household burden for the selected area.</p>`
-            })
-        } catch (err) {
-            console.error(err)
-            setResult({ error: 'Invalid response format' })
+        if (isZip) {
+            match = dataset.find(row =>
+                row['ZIP Codes']?.split(',').map(z => z.trim()).includes(zip)
+            )
+        } else {
+            match = dataset.find(
+                row => normalizeCounty(row['County Name']) === normalizeCounty(county)
+            )
         }
-    }
 
+        if (!match) {
+            setResult({ error: 'No data found for that ZIP code or county.' })
+            return
+        }
+
+        setResult({
+            energyBurdenPercent: match['Energy Burden Pct Income'] + '%',
+            county: match['County Name'],
+            zip: isZip ? zip : '',
+            message: isZip
+                ? `Energy burden for ZIP ${zip} (in ${match['County Name']} County)`
+                : `Energy burden for ${match['County Name']} County`,
+            display: `<p>This value represents the average household burden for the selected area.</p>`
+        })
+    }
 
     return (
         <div className="energy-form-container">
@@ -68,7 +81,6 @@ const Calculator = () => {
                     )}
                 </div>
             )}
-
         </div>
     )
 }
