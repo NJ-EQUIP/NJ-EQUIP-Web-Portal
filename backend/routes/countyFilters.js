@@ -1,11 +1,10 @@
-const express = require('express');
-const router = express.Router();
+const express = require('express')
+const router = express.Router()
 //import { filterQuery } from "/utils.js"
 // Reduce repetative querying
 // Route: /api/county-filters/*insert-data-link*
 
 const {
-  loadElectricGas,
   loadEnergyBurden,
   loadHeatingFuel,
   loadHousingBuiltYear,
@@ -15,15 +14,6 @@ const {
   loadTenureType
 } = require('../loaders');
 
-// Electric-gas move to Municipal Filter
-router.get('/electric-gas', async (req, res) => {
-  try {
-    const data = await loadElectricGas();
-    res.json(data);
-  } catch (err) {
-    res.status(500).json({ error: 'Failed to load Electric Gas data.' });
-  }
-});
 
 router.get('/energy-burden', async (req, res) => {
   try {
