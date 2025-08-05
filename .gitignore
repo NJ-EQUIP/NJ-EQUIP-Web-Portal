@@ -43,3 +43,6 @@ coverage/
 
 # You can whitelist if needed:
 # !/backend/data/schema.csv
+
+# Local Netlify folder
+.netlify
