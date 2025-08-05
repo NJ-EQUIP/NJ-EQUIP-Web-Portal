@@ -1,48 +1,73 @@
-// Add Validation and error checks for form inputs (Zipcode length, negative income, etc.)
-// Add Decision Support
 import React, { useState } from "react"
 import { calculateEnergyBurden } from "../utils/energyCalc"
 
+// Add result comparison to NJ average to show if overburdend or not
 const Calculator = () => {
     const [result, setResult] = useState(null)
 
-    const stateData = {
-        // Link zip code database
-        // example: "07003": { Re: 0.13, Rh: 1.1 },
-    }
-
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault()
+        const input = e.target.location.value.trim()
 
-        const userData = {
-            Zc: e.target.zip.value,
-            Ee: parseFloat(e.target.electricity.value),
-            Eh: parseFloat(e.target.heating.value),
-            Mi: parseFloat(e.target.income.value),
+        if (!input) {
+            setResult({ error: 'Please enter a ZIP code or county name.' })
+            return
         }
 
-        const stateAverageEB = 6; // e.g., 6%
-        const result = calculateEnergyBurden(userData, stateData, stateAverageEB)
-        setResult(result)
+        const isZip = /^\d{5}$/.test(input)
+        const queryParam = isZip ? `zip=${input}` : `county=${encodeURIComponent(input)}`
+
+        try {
+           const res = await fetch(`http://localhost:5050/api/zip-filters?${queryParam}`)
+
+            const data = await res.json()
+
+            if (!res.ok) {
+                setResult({ error: data.error || 'No data found' })
+                return
+            }
+
+            setResult({
+                energyBurdenPercent: data['Energy Burden Pct Income'] + '%',
+                county: data['County Name'],
+                zip: isZip ? input : '',
+                message: isZip
+                    ? `Energy burden for ZIP ${input} (in ${data['County Name']} County)`
+                    : `Energy burden for ${data['County Name']} County`,
+                display: `<p>This value represents the average household burden for the selected area.</p>`
+            })
+        } catch (err) {
+            console.error(err)
+            setResult({ error: 'Failed to fetch data' })
+        }
     }
+
+
     return (
         <div className="energy-form-container">
             <h2>Energy Burden Calculator</h2>
             <form className="energy-form" onSubmit={handleSubmit}>
-                <input name="zip" placeholder="Zip Code" required />
-                <input name="electricity" type="number" placeholder="Electricity Usage (kWh)" required />
-                <input name="heating" type="number" placeholder="Heating Usage (therms)" required />
-                <input name="income" type="number" placeholder="Monthly Income ($)" required />
-                <button type="submit">Calculate</button>
+                <label>
+                    Enter ZIP Code or County Name:
+                    <input type="text" name="location" placeholder="e.g. 07003 or Essex" />
+                </label>
+                <button type="submit">Check Energy Burden</button>
             </form>
 
             {result && (
                 <div className="calc-result">
-                    <p><strong>Energy Burden:</strong> {result.energyBurdenPercent}</p>
-                    <p><strong>Status:</strong> {result.message}</p>
-                    {result.display && <p dangerouslySetInnerHTML={{ __html: result.display }} />}
+                    {result.error ? (
+                        <p style={{ color: 'red' }}>{result.error}</p>
+                    ) : (
+                        <>
+                            <p><strong>Energy Burden:</strong> {result.energyBurdenPercent}</p>
+                            <p><strong>Status:</strong> {result.message}</p>
+                            {result.display && <div dangerouslySetInnerHTML={{ __html: result.display }} />}
+                        </>
+                    )}
                 </div>
             )}
+
         </div>
     )
 }

@@ -1,24 +1,32 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 function Home() {
     return (
         <div className="wrapper">
-        <div className="box-container">
-            <div className="box left-box">
-                <div>
-                    <h2>Empowering New Jersey with Clean Energy Insights</h2>
-                    <p>Discover the latest in clean energy solutions and initiatives across New Jersey. From solar power
-                        to
-                        wind energy, we provide actionable insights, resources, and updates to help individuals and
-                        businesses contribute to a greener future. Explore how New Jersey is leading the charge in
-                        sustainable energy.</p>
+            <div className="box-container">
+                <div className="box left-box">
+                    <div>
+                        <h2>New Jersey Energy eQuity User Interactive Portal</h2>
+                        <p><b>Energy equity</b> means ensuring that all communities—regardless of income, race, or housing status—have fair access to affordable, reliable, and clean energy. In New Jersey, energy burden remains disproportionately high in many low-income and overburdened communities.</p>
+                        <br></br>
+                        <ul><b>NJ EQUIP</b> is the first interactive, data-driven platform built specifically for New Jersey that brings together:</ul>
+                        <li>Spatiotemporal energy burden analysis</li>
+                        <li>Socio-demographic equity indicators</li>
+                        <li>Public sentiment around energy policy</li>
+                        <li>Real-time, map-based visualization tool</li>
+
+                    </div>
+                </div>
+                <div className="box right-box">
+                    <Link to="/map">Map
+                        <img src="https://ik.imagekit.io/clouglobal/img/wp-content/uploads/2023/08/Net-zero-buildings-are-revolutionary-structures-designed-to-achieve-a-state-of-carbon-neutrality-where-the-energy-consumed-is-offset-by-renewable-energy-generation-symbol-image-credit-CLOU-1.jpg" alt="New Jersey County Map" /></Link>
+                    <Link to="/calculator">Energy-Calculator
+                    <div><h2>**Add img for link here</h2></div>
+                    </Link>
                 </div>
             </div>
-            <div className="box right-box">
-                <img src="https://ik.imagekit.io/clouglobal/img/wp-content/uploads/2023/08/Net-zero-buildings-are-revolutionary-structures-designed-to-achieve-a-state-of-carbon-neutrality-where-the-energy-consumed-is-offset-by-renewable-energy-generation-symbol-image-credit-CLOU-1.jpg" alt="New Jersey County Map" />
-            </div>
         </div>
-    </div>
     )
 }
 
