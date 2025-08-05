@@ -18,14 +18,15 @@ const Calculator = () => {
         const queryParam = isZip ? `zip=${input}` : `county=${encodeURIComponent(input)}`
 
         try {
-           const res = await fetch(`http://localhost:5050/api/zip-filters?${queryParam}`)
-
-            const data = await res.json()
+            const res = await fetch(`/.netlify/functions/energy-burden-zip?${queryParam}`)
+            const text = await res.text()
 
             if (!res.ok) {
-                setResult({ error: data.error || 'No data found' })
+                setResult({ error: 'Request failed' })
                 return
             }
+
+            const data = JSON.parse(text)
 
             setResult({
                 energyBurdenPercent: data['Energy Burden Pct Income'] + '%',
@@ -38,7 +39,7 @@ const Calculator = () => {
             })
         } catch (err) {
             console.error(err)
-            setResult({ error: 'Failed to fetch data' })
+            setResult({ error: 'Invalid response format' })
         }
     }
 
