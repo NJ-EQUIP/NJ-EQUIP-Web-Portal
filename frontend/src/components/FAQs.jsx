@@ -7,8 +7,8 @@ function FAQs() {
 
     const items = [
         {
-            q: "What is the New Jersey Energy Portal?",
-            a: "The New Jersey Energy Portal is a resource that provides information and data related to energy usage,resources, and initiatives in New Jersey. It aims to empower residents, businesses, and policymakers to make informed decisions about energy consumption and clean energy adoption."
+            q: "What is NJ-EQUIP",
+            a: "The NJ-EQUIP web portal is a resource that provides information and data related to energy usage,resources, and initiatives in New Jersey. It aims to empower residents, businesses, and policymakers to make informed decisions about energy consumption and clean energy adoption."
         },
         {
             q: "How do I access the data maps?",
