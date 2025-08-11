@@ -1,7 +1,7 @@
 function Resources() {
     return (
         <div class="resources-container">
-            <h2>Resources</h2>
+            <h2>Change to Sentiment Analysis Page</h2>
 
             <div class="resource-item">
                 <h3>Template (fill Later)</h3>

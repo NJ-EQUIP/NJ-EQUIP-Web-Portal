@@ -6,6 +6,7 @@
 
 [dev]
   framework = "vite"
+  command = "npm run dev"  # <-- this runs inside frontend/
   targetPort = 5173
   port = 8888
   autoLaunch = true

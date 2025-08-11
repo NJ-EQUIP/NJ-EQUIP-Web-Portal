@@ -19,10 +19,10 @@ function Home() {
                     </div>
                 </div>
                 <div className="box right-box">
-                    <Link to="/map">Map
-                        <img src="https://ik.imagekit.io/clouglobal/img/wp-content/uploads/2023/08/Net-zero-buildings-are-revolutionary-structures-designed-to-achieve-a-state-of-carbon-neutrality-where-the-energy-consumed-is-offset-by-renewable-energy-generation-symbol-image-credit-CLOU-1.jpg" alt="New Jersey County Map" /></Link>
-                    <Link to="/calculator">Energy-Calculator
-                    <div><h2>**Add img for link here</h2></div>
+                    <Link to="/map">
+                        <img src="map.png" alt="New Jersey County Map" /></Link>
+                    <Link to="/calculator">
+                    <img src='calc.png' alt='Energy Burden Calculator' />
                     </Link>
                 </div>
             </div>

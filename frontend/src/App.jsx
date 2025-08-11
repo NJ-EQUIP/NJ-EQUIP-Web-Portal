@@ -10,6 +10,7 @@ import Resources from './components/Resources'
 import FAQs from './components/FAQs'
 import Map from './components/Map'
 import Calculator from './components/Calculator'
+import Sentiment from './components/Sentiment'
 import './App.css'
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
           <Route path='/faqs' element={<FAQs />} />
           <Route path='/map' element={<Map />} />
           <Route path='/calculator' element={<Calculator />} />
+          <Route path='/sentiment' element={<Sentiment />} />
+          <Route path='/sentiment/:collection' element={<Sentiment />} />
         </Routes>
       </div>
     </Router>

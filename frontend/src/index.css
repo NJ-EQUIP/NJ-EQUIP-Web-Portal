@@ -22,6 +22,8 @@ header {
     justify-content: center;
 }
 
+/* ================= Navbar styling  =============== */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -30,7 +32,7 @@ header {
 }
 
 .navbar h1 {
-    font-size: 24px;
+    font-size: 50px;
     margin-left: 20px;
     background-color: #04A264;
     padding: 10px 20px;
@@ -43,7 +45,7 @@ nav a {
     text-decoration: none;
     color: white;
     margin: 0 15px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .navbar nav a:hover {
@@ -62,6 +64,49 @@ nav a.data-maps-link {
 nav a.data-maps-link:hover {
     background-color: #4CAF50;
     color: white;
+}
+
+.logo-crop {
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.navbar-logo {
+    height: 120px;
+    background-color: #04A264;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
 }
 
 .wrapper {
@@ -245,58 +290,162 @@ nav a.data-maps-link:hover {
     border-radius: 5px;
 }
 
-/* ======== Calculator Section styling ============= */
-.energy-form-container {
-  max-width: 500px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background-color: #f8f9fa;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+.faq-item p,
+.about-item p {
+  display: none;
+  margin-top: 5px;
 }
 
-.energy-form-container h2 {
-  text-align: center;
-  margin-bottom: 1.5rem;
-  color: #333;
+.faq-item.open p,
+.about-item.open p {
+  display: block;
 }
 
-.energy-form input {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 1rem;
-}
-
-.energy-form button {
-  width: 100%;
-  padding: 10px;
-  background-color: #0077cc;
-  color: white;
-  font-size: 1rem;
-  border: none;
-  border-radius: 8px;
+/* Optional: change cursor for clickable area */
+.faq-item,
+.about-item {
   cursor: pointer;
-  transition: background-color 0.3s;
 }
 
-.energy-form button:hover {
-  background-color: #005fa3;
+
+/* ======== Calculator Section styling ============= */
+/* Layout */
+.calc.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
 }
 
-.calc-result {
-  margin-top: 1.5rem;
-  background-color: #e9f5ff;
-  padding: 1rem;
+.calc.title {
+  margin: 0 0 8px 0;
+}
+
+.calc.subtitle {
+  color: #666;
+  margin: 0 0 24px 0;
+}
+
+/* Form */
+.calc.form-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.calc.form-box h1 {
+  font-size: 2rem;
+  color: #0a2a1f;
+  margin-bottom: 10px;
+}
+
+.calc.form-box p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.calc.form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.calc.input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
   border-radius: 8px;
-  border-left: 5px solid #0077cc;
+  outline: none;
 }
 
-.calc-result p {
-  margin: 0.5rem 0;
+.calc.input:focus {
+  border-color: #04A264;
+  box-shadow: 0 0 0 3px rgba(4, 162, 100, 0.15);
 }
+
+.calc.button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  background: #04A264;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.calc.button:hover {
+  filter: brightness(0.95);
+}
+
+.calc.error {
+  color: #b3261e;
+  margin-bottom: 16px;
+}
+
+/* Card */
+.calc.card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  background: #fff;
+}
+
+.calc.card-title {
+  margin-top: 0;
+}
+
+.calc.stats {
+  margin: 8px 0;
+}
+
+.calc.label {
+  font-weight: 600;
+}
+
+.calc.note {
+  color: #666;
+  font-style: italic;
+}
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.badge-success {
+  background: #e6f6ef;
+  color: #036c43;
+  border: 1px solid #bfe8d7;
+}
+
+.badge-danger {
+  background: #fdeceb;
+  color: #8a1c16;
+  border: 1px solid #f5c2c0;
+}
+
+/* Tips */
+.tips {
+  margin-top: 24px;
+}
+
+.tips.title {
+  margin: 0 0 8px 0;
+}
+
+.tips.list {
+  padding-left: 1.25rem;
+  line-height: 1.6;
+}
+
 
 /* === Map Styles === */
 /* Toggle Button for Map */
@@ -360,3 +509,4 @@ nav a.data-maps-link:hover {
         margin-bottom: 20px;
     }
 }
+

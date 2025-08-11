@@ -1,4 +1,3 @@
-//Fix CSS for 
 import React from 'react'
 import { Link } from 'react-router-dom'
 
@@ -6,15 +5,18 @@ function Navbar() {
     return (
         <header>
             <div className='navbar'>
-                <h1>NJ-EQUIP:</h1>
-                <h3>Energy eQuity User Interavtive Portal</h3>
+                <Link to="/" className='logo-link'>
+                    <div className='logo-crop'>
+                        <img src="logo.png" alt="NJ-Equip" className='navbar-logo'></img>
+                    </div>
+                </Link>
                 <nav>
                     <ul>
                         <Link to="/">Home</Link>
                         <Link to="/map">Map</Link>
                         <Link to="/calculator">Energy-Calculator</Link>
+                        <Link to="/sentiment">Public-Sentiment</Link>
                         <Link to="/about">About</Link>
-                        <Link to="/resources">Resources</Link>
                         <Link to="/faqs">FAQs</Link>
                     </ul>
                 </nav>
