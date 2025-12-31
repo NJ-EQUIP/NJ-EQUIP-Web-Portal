@@ -1,3 +1,4 @@
+//decommisioned {delete upon confirmation of null use}
 import React, { useState } from "react";
 
 function FAQs() {
@@ -7,49 +8,45 @@ function FAQs() {
 
     const items = [
         {
-            q: "What is NJ-EQUIP",
-            a: "The NJ-EQUIP web portal is a resource that provides information and data related to energy usage,resources, and initiatives in New Jersey. It aims to empower residents, businesses, and policymakers to make informed decisions about energy consumption and clean energy adoption."
+            q: "What is energy burden?",
+            a: "Energy burden refers to the percentage of a household's income spent on home energy bills—such as electricity, heating, and cooling. A household is generally considered overburdened if it spends more than 6% of its income on energy costs."
         },
         {
-            q: "How do I access the data maps?",
-            a: "You can access the data maps by clicking on the Maps link in the navigation bar. This will take you to a dashboard with interactive maps displaying energy data across New Jersey counties, allowing users to compare energy consumption by demographics and regions."
+            q: "What is energy equity and why does it matter?",
+            a: "Energy equity means ensuring all people—regardless of income, race, or housing status—have access to affordable, reliable, and clean energy. Energy equity matters because high energy burdens can deepen inequality, strain family budgets, and limit access to basic needs like heating or air conditioning."
         },
         {
-            q: "Who is the target audience for the portal?",
-            a: "The target audience includes policymakers, researchers, community advocates, utility companies, students, and the public. Users may seek high-level insights or detailed data analysis for better understanding and decision-making regarding energy equity and sustainability."
+            q: "Who is most affected by high energy burdens in New Jersey?",
+            a: "In New Jersey, low-income households, renters, people of color, and those living in older or poorly insulated housing are disproportionately affected. Overburdened communities are more likely to rely on expensive or inefficient fuel types like oil or propane and often have limited access to clean energy incentives."
         },
         {
-            q: "What kind of data does the portal provide?",
-            a: "The portal integrates real-time datasets such as electricity consumption by county, income data, clean energy adoption metrics, and external APIs for climate data. Users can explore various metrics and insights that highlight energy burdens and efficiency."
+            q: "How do I calculate my energy burden using this tool?",
+            a: "Navigate to the “Calculate Energy Burden” section. Enter your: 1. Annual household income, Heating fuel type, Zip code or county. The tool will calculate your energy burden and show how it compares to state and local averages."
         },
         {
-            q: "Are there any tools for calculating energy burden or efficiency?",
-            a: "Yes, the portal features energy burden calculators that allow users to input their income, household size, and energy use to understand how these factors affect their energy costs. This helps identify opportunities for efficiency improvements."
+            q: "What geographic areas does this tool cover?",
+            a: "NJ EQUIP provides data at the municipality, county, and ZIP code levels across the entire state of New Jersey. You can explore and compare energy burden trends by geography and time."
         },
         {
-            q: "Is the portal available in multiple languages?",
-            a: "Currently, the portal primarily supports English, but there are plans to include additional languages, such as Spanish, to increase accessibility for a broader audience in New Jersey."
+            q: "Where does the data come from?",
+            a: "Data comes from: U.S. Census Bureau (ACS & Decennial Census); NJ Clean Energy Program (NJCEP); New Jersey Board of Public Utilities (NJBPU); Publicly available Reddit posts for sentiment analysis; NJ Geographic Information Network (NJGIN) for mapping boundaries"
         },
         {
-            q: "How frequently is the data updated?",
-            a: "The data is updated regularly to ensure that users have access to the latest information regarding energy consumption, policy changes, and incentives. Users can rely on the portal for current insights."
+            q: " What is an overburdened community?",
+            a: "An overburdened community is defined by the NJ Department of Environmental Protection (NJDEP) as a community that meets criteria based on income, race/ethnicity, and English proficiency. These communities often face greater environmental and health risks and are prioritized under New Jersey’s environmental justice policies."
         },
         {
-            q: "What types of visualizations can I expect to find on the portal?",
-            a: "The portal features a variety of interactive visualizations, including maps, charts, and dashboards that display trends in energy consumption, clean energy adoption, and socio-economic impacts. These visualizations make it easier for users to interpret complex data."
+            q: "How does NJ EQUIP measure public opinion on energy policy?",
+            a: "We use sentiment analysis on text data from Reddit, applying models like VADER and ClimateBERT to identify whether public comments reflect positive, neutral, or negative sentiment over time. This helps visualize how people feel about energy policies such as rebates or clean energy programs."
         },
         {
-            q: "Are there resources available for energy-saving tips?",
-            a: "Yes, the portal includes dynamic content feeds that provide energy-saving tips, information on clean energy initiatives, and updates on relevant energy policies in New Jersey. This ensures users are informed about ways to improve their energy efficiency."
+            q: "Can I download or export the data?",
+            a: "Currently, NJ EQUIP offers data visualizations for public use. Export and download features may be added in future versions to support research and community advocacy."
         },
         {
-            q: "Can I contribute to the portal's data or provide feedback?",
-            a: "Absolutely! The portal encourages user feedback and contributions. Please reach out through the contact form available on the website to share your insights or suggestions for improvement."
+            q: "Who should use NJ EQUIP?",
+            a: "The portal is designed for: Residents who want to understand their energy costs; Community organizations advocating for energy justice; Researchers analyzing demographic or spatial patterns; Policymakers and planners working on equitable clean energy programs"
         },
-        {
-            q: "Where can I find more information on clean energy incentives?",
-            a: "The portal provides a dedicated section outlining available clean energy incentives and policies. You can explore these options to learn how they can benefit your household or business."
-        }
     ]
     return (
         <div className="faq-container">

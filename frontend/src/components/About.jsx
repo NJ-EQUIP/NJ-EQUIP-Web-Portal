@@ -6,30 +6,31 @@ function About() {
 
   const sections = [
     {
-      title: "Our Mission",
+      title: "Sarahana Shrestha: Earth and Environmental Studies, Montclair State",
       content:
-        "The New Jersey Energy Portal was established to empower residents, businesses, and policymakers with the information needed to make informed decisions about energy usage, resources, and sustainable practices."
+        "University Graduate researcher and co-developer leading the analysis and development of the NJ EQUIP Portal. (shresthas1@montclair.edu)"
     },
     {
-      title: "What We Do",
+      title: "Andrew Taggart: Data Science Masters Student, Montclair State University",
       content:
-        "We serve a diverse audience including policymakers, researchers, community advocates, utility companies, students, and public communities. Our platform offers a variety of features such as interactive data visualizations, energy burden calculators, and dynamic content feeds on energy policy and initiatives."
+        "Lead Web developer ensuring the portal is technically robust, accessible, and responsive to user needs, responsible for technical architecture, coding, and deployment. (taggarta2@montclair.edu)"
     },
     {
-      title: "Impact of Clean Energy",
+      title: "Dr Aparna Varde: School of Computing, Montclair State University ",
       content:
-        "Our portal highlights the substantial benefits of clean energy programs in New Jersey. For instance, in 2023, residents utilized over $X million in NJCEP incentives to adopt clean energy programs, leading to an average annual savings of X kWh per household. Furthermore, households participating in the NJ Clean Energy Program can reduce their annual energy costs"
+        "Faculty advisor providing guidance on research design, data sources, and the broader vision for advancing energy equity in New Jersey. (vardea@montclair.edu)"
     },
     {
       title: "Our Team",
       content:
-        "Our team is committed to enhancing the accessibility of energy-related data. We strive to support informed decision-making by integrating real-time datasets and ensuring our resources are user-friendly for a wide range of users."
+        "Our team is committed to enhancing the accessibility of energy-related data. We strive to support informed decision-making by integrating real-time datasets and ensuring our resources are user-friendly for a wide range of users. "
     }
   ];
 
   return (
     <div className="about-container">
-      <h2>About the New Jersey Energy Portal</h2>
+      <h2>Who Are We?</h2>
+      <p>This project is a collaborative effort between:</p>
 
       {sections.map((sec, i) => (
         <div

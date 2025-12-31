@@ -1,299 +1,467 @@
+/* ========== Base Reset ========== */
+:root {
+  --header-h: 120px;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: gill-sans, sans-serif;
-    background-color: #04A264;
-    color: #333;
-    line-height: 1.6;
-    margin: 0;
+  font-family: gill-sans, sans-serif;
+  background-color: #04A264;
+  color: #333;
+  line-height: 1.6;
 }
 
-header {
-    background-color: #0a2a1f;
-    padding: 20px;
-    color: white;
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
+/* Accessible focus ring */
+a:focus,
+button:focus,
+select:focus,
+input:focus {
+  outline: 3px solid rgba(4, 162, 100, 0.35);
+  outline-offset: 2px;
 }
 
-/* ================= Navbar styling  =============== */
+
+/* ========== Navbar ========== */
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-.navbar h1 {
-    font-size: 50px;
-    margin-left: 20px;
-    background-color: #04A264;
-    padding: 10px 20px;
-    border-radius: 20px;
-    color: white;
-    font-weight: bold;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    margin: 0 15px;
-    font-size: 20px;
-}
-
-.navbar nav a:hover {
-    text-decoration: underline;
-}
-
-nav a.data-maps-link {
-    background-color: #04A264;
-    padding: 10px 20px;
-    border-radius: 20px;
-    color: white;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-nav a.data-maps-link:hover {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.logo-crop {
-    height: 100px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    padding: 5px 10px;
-    background-color: white;
-    border-radius: 20px;
-    margin-left: 20px;
-}
-
-.navbar-logo {
-    height: 120px;
-    background-color: #04A264;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .logo-link {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 
-.nav-links {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.logo-crop {
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-left: 20px;
 }
 
-.nav-links li {
-    margin: 0 15px;
+.navbar-logo {
+  height: 150px;
+  background-color: #04A264;
 }
 
-.nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2000;
+  background-color: #0a2a1f;
+  padding: 20px;
+  color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  min-height: 120px;
 }
 
-.nav-links a:hover {
-    text-decoration: underline;
+/* Nav list reset */
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
 }
 
-.wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: calc(100vh - 80px);
+header nav li {
+  margin: 0;
+  padding: 0;
 }
 
-.box-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 20px;
-    padding: 20px;
-    gap: 20px;
+/* Links (desktop baseline) */
+header nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+  font-size: 30px;
 }
 
-.box {
-    background-color: white;
-    padding: 40px;
-    border-radius: 30px;
-    width: 48%;
-    min-height: 625px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header nav a:hover {
+  text-decoration: underline;
 }
 
-.left-box {
-    text-align: left;
-    background-color: white;
-    border-radius: 30px;
-    padding: 40px;
-}
-
-.left-box h2 {
+/* Shrink nav text only (logo untouched) */
+@media (max-width: 1325px) {
+  header nav a {
     font-size: 28px;
-    margin-bottom: 15px;
-    color: #333;
+    margin: 0 12px;
+  }
 }
 
-.left-box p {
-    font-size: 18px;
-    line-height: 1.8;
-    color: #555;
-}
-
-.right-box img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-    border-radius: 15px;
-}
-
-/* ================= About Section styling  =============== */
-.about-container {
-    background-color: white;
-    padding: 40px;
-    border-radius: 30px;
-    width: 80%;
-    margin: 30px auto;
-}
-
-.about-container h2 {
-    color: #0a2a1f;
+@media (max-width: 1225px) {
+  header nav a {
     font-size: 26px;
-    margin-bottom: 20px;
+    margin: 0 10px;
+  }
 }
 
-/* Collapsible style similar to FAQ */
-.about-item {
-    margin-bottom: 20px;
+@media (max-width: 1135px) {
+  header nav a {
+    font-size: 24px;
+    margin: 0 8px;
+  }
 }
 
-.about-item h3 {
+@media (max-width: 1055px) {
+  header nav a {
+    font-size: 22px;
+    margin: 0 8px;
+  }
+}
+
+@media (max-width: 1000px) {
+  header nav a {
     font-size: 20px;
-    color: #0a2a1f;
-    cursor: pointer;
-    transition: color 0.3s;
-    padding: 10px;
-    background-color: #f1f1f1;
-    border-radius: 5px;
+    margin: 0 6px;
+  }
 }
 
-.about-item h3:hover {
-    color: #04A264;
-}
-
-.about-item p {
-    font-size: 16px;
-    line-height: 1.5;
-    display: none;
-    background-color: #f9f9f9;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* ========== Resources Section styling ============= */
-.resources-container {
-    background-color: white;
-    padding: 40px;
-    border-radius: 30px;
-    width: 80%;
-    margin: 30px auto;
-}
-
-.resources-container h2 {
-    color: #0a2a1f;
-    font-size: 26px;
-    margin-bottom: 20px;
-}
-
-/* Collapsible style for resource categories */
-.resource-item {
-    margin-bottom: 20px;
-}
-
-.resource-item h3 {
-    font-size: 20px;
-    color: #0a2a1f;
-    cursor: pointer;
-    transition: color 0.3s;
-    padding: 10px;
-    background-color: #f1f1f1;
-    border-radius: 5px;
-}
-
-.resource-item h3:hover {
-    color: #04A264;
-}
-
-.resource-item p {
-    font-size: 16px;
-    line-height: 1.5;
-    display: none;
-    background-color: #f9f9f9;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* ======== FAQ Section styling ============= */
-.faq-container {
-    background-color: white;
-    padding: 40px;
-    border-radius: 30px;
-    width: 80%;
-    margin: 30px auto;
-}
-
-.faq-container h2 {
-    color: #0a2a1f;
-    font-size: 26px;
-    margin-bottom: 20px;
-}
-
-.faq-item {
-    margin-bottom: 20px;
-}
-
-.faq-item h3 {
-    font-size: 20px;
-    color: #0a2a1f;
-    cursor: pointer;
-    transition: color 0.3s;
-    padding: 10px;
-    background-color: #f1f1f1;
-    border-radius: 5px;
-}
-
-.faq-item h3:hover {
-    color: #04A264;
-}
-
-.faq-item p {
-    font-size: 16px;
-    line-height: 1.5;
-    display: none;
-    background-color: #f9f9f9;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.faq-item p,
-.about-item p {
+/* Hamburger button (hidden by default) */
+.nav-toggle {
   display: none;
-  margin-top: 5px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+/* Mobile menu */
+@media (max-width: 950px) {
+
+  .navbar {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }
+
+  header nav {
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+
+  header nav .nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+
+  header nav ul {
+    display: none;
+    width: 100%;
+    margin-top: 12px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+  }
+
+  header nav ul.is-open {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar.is-open .logo-link {
+    display: none;
+  }
+
+  .navbar.is-open header nav,
+  .navbar.is-open nav,
+  .navbar.is-open .nav-menu {
+    width: 100%;
+  }
+
+  .navbar.is-open .nav-toggle,
+  .navbar.is-open #primary-nav {
+    width: 100%;
+  }
+
+  header nav a {
+    font-size: 15px;
+    margin: 0;
+    padding: 10px 12px;
+  }
+}
+
+
+
+/* ========== Home Layout ========== */
+.home.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - var(--header-h));
+  padding-top: 10px;
+}
+
+.home .box-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  gap: 20px;
+}
+
+.home .box {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 30px;
+  width: 48%;
+  min-height: 625px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .left-box img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+/* specifically for the homepage logo */
+.home .left-box img.home-logo {
+  height: auto;
+  width: min(360px, 85%);
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.home .left-box h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.home .left-box p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* Stack the right-side cards vertically */
+.home .right-column {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home .right-column .box {
+  width: 100%;
+  min-height: auto;
+  align-items: flex-start;
+}
+
+
+.home .right-top,
+.home .right-bottom {
+  display: grid;
+  grid-template-columns: minmax(240px, 320px) 1fr;
+  column-gap: 20px;
+  align-items: start;
+}
+
+
+.home .right-top a,
+.home .right-bottom a {
+  grid-column: 2;
+  grid-row: 1 / -1;
+  display: block;
+}
+
+.home .right-top img,
+.home .right-bottom img {
+  width: 220px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.home .right-bottom img {
+  margin-left: 50px;
+  height: 200px;
+  width: auto;
+}
+
+/* Mobile: stack everything */
+@media (max-width: 1350px) {
+  .home .box-container {
+    flex-direction: column;
+  }
+
+  .home .box,
+  .home .right-column {
+    width: 100%;
+  }
+
+  .home .box {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 730px) {
+
+  .home .right-top,
+  .home .right-bottom {
+    grid-template-columns: 1fr;
+    row-gap: 14px;
+  }
+
+  .home .right-top a,
+  .home .right-bottom a {
+    grid-column: 1;
+    grid-row: auto;
+    justify-self: center;
+  }
+
+  .home .right-top img,
+  .home .right-bottom img {
+    width: min(320px, 90%);
+    height: auto;
+  }
+
+  .home .right-bottom img {
+    margin-left: 0;
+  }
+}
+
+/* ======== Navbar compact (<= 600px) ======== */
+@media (max-width: 600px) {
+  :root {
+    --header-h: 78px;
+  }
+
+  /* shrink overall header space */
+
+  header {
+    min-height: var(--header-h);
+    padding: 8px 10px;
+  }
+
+  .logo-crop {
+    height: 62px;
+    /* smaller logo container */
+    padding: 4px 8px;
+    border-radius: 14px;
+    margin-left: 10px;
+  }
+
+  .navbar-logo {
+    height: 62px;
+    /* match container height */
+  }
+
+  /* menu sizing (works for both inline + hamburger mode) */
+  header nav a {
+    font-size: 14px;
+    margin: 0;
+    padding: 8px 10px;
+  }
+
+  header nav ul {
+    margin-top: 8px;
+    padding: 8px;
+  }
+
+  .nav-toggle {
+    font-size: 34px;
+    /* smaller hamburger */
+    padding: 6px 10px;
+    border-radius: 10px;
+  }
+
+  /* optional: tighten right spacing so logo + button fit */
+  header nav {
+    margin-right: 10px;
+  }
+}
+
+
+
+/* ========== About / Resources / FAQ ========== */
+.about-container,
+.resources-container,
+.faq-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 30px;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.about-container h2,
+.resources-container h2,
+.faq-container h2 {
+  color: #0a2a1f;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.about-item,
+.resource-item,
+.faq-item {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.about-item h3,
+.resource-item h3,
+.faq-item h3 {
+  font-size: 20px;
+  color: #0a2a1f;
+  transition: color 0.3s;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.about-item h3:hover,
+.resource-item h3:hover,
+.faq-item h3:hover {
+  color: #04A264;
+}
+
+.about-item p,
+.resource-item p,
+.faq-item p {
+  font-size: 16px;
+  line-height: 1.5;
+  display: none;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .faq-item.open p,
@@ -301,15 +469,7 @@ nav a.data-maps-link:hover {
   display: block;
 }
 
-/* Optional: change cursor for clickable area */
-.faq-item,
-.about-item {
-  cursor: pointer;
-}
-
-
-/* ======== Calculator Section styling ============= */
-/* Layout */
+/* ========== Calculator ========== */
 .calc.container {
   max-width: 900px;
   margin: 0 auto;
@@ -325,7 +485,6 @@ nav a.data-maps-link:hover {
   margin: 0 0 24px 0;
 }
 
-/* Form */
 .calc.form-box {
   background: #fff;
   padding: 30px;
@@ -385,12 +544,11 @@ nav a.data-maps-link:hover {
   margin-bottom: 16px;
 }
 
-/* Card */
 .calc.card {
   border: 1px solid #eee;
   border-radius: 12px;
   padding: 16px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
   background: #fff;
 }
 
@@ -411,7 +569,6 @@ nav a.data-maps-link:hover {
   font-style: italic;
 }
 
-/* Badges */
 .badge {
   display: inline-block;
   padding: 2px 8px;
@@ -432,7 +589,6 @@ nav a.data-maps-link:hover {
   border: 1px solid #f5c2c0;
 }
 
-/* Tips */
 .tips {
   margin-top: 24px;
 }
@@ -446,17 +602,29 @@ nav a.data-maps-link:hover {
   line-height: 1.6;
 }
 
+/* ========== Map UI  ========== */
 
-/* === Map Styles === */
-/* Toggle Button for Map */
-.map-toggle-button {
-  z-index: 1000;
+.map-wrapper {
+  height: calc(100vh - var(--header-h, 120px));
+  width: 100%;
+}
+
+/* ---------- Controls ---------- */
+.map-controls {
   position: absolute;
   bottom: 10px;
   right: 10px;
+  z-index: 1400;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.map-toggle-button {
+  z-index: 1400;
   padding: 8px 12px;
   background-color: #04A264;
-  color: white;
+  color: #fff;
   font-weight: bold;
   border: none;
   border-radius: 6px;
@@ -464,49 +632,730 @@ nav a.data-maps-link:hover {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-/* Info Panel for Selected Feature */
-.map-info-box {
-  position: absolute;
-  top: 80px;
-  right: 20px;
-  z-index: 1000;
-  background: white;
-  border: 2px solid #333;
-  border-radius: 10px;
-  padding: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  width: 250px;
+/* If the toggle is inside .map-controls, it should not be absolutely positioned */
+.map-controls .map-toggle-button {
+  position: static;
+  margin: 0;
 }
 
-/* Text inside the info box */
+.map-controls .obc-toggle {
+  margin: 0;
+}
+
+.map-controls .obc-toggle label {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: #0a2a1f;
+}
+
+/* ---------- Info panel (desktop baseline) ---------- */
+.map-info-box {
+  position: absolute;
+  bottom: 100px;
+  right: 10px;
+  z-index: 1300;
+  background: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  max-width: 300px;
+  max-height: calc(100vh - 140px);
+  overflow: auto;
+}
+
+.map-info-box h4 {
+  margin: 0 0 6px 0;
+  line-height: 1.2;
+}
+
+.map-info-box .panel-title {
+  margin-top: 8px;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
 .map-info-box p {
   font-size: 14px;
   color: #666;
 }
 
-/* Close button for info box */
+/* Controls row inside info panel */
+.map-info-box .control-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: 10px;
+  margin-bottom: 6px;
+}
+
+/* Show/Hide button (desktop baseline) */
+.map-info-box .ib-toggle-queried {
+  margin-left: auto;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  color: #0a2a1f;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.map-info-box .ib-toggle-queried:hover {
+  filter: brightness(0.97);
+}
+
+/* Close button */
 .map-close-button {
   margin-top: 10px;
   padding: 5px 10px;
   border: none;
   background-color: #04A264;
-  color: white;
+  color: #fff;
   border-radius: 5px;
   cursor: pointer;
 }
 
-
-/* === Dashboard Styles === */
-
-
-@media (max-width: 768px) {
-    .box-container {
-        flex-direction: column;
-    }
-
-    .box {
-        width: 100%;
-        margin-bottom: 20px;
-    }
+/* ---------- Legend styling (no absolute positioning here) ---------- */
+/* The wrapper (.map-legend-stack) controls placement; legends are static within it. */
+.map-legend {
+  background: #fff;
+  padding: 6px 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  font: 14px/16px Arial, Helvetica, sans-serif;
 }
 
+.map-legend .map-legend-row {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+}
+
+.map-legend .swatch {
+  width: 25px;
+  height: 18px;
+  margin-right: 8px;
+  opacity: 0.85;
+}
+
+/* ---------- Legend stack (desktop baseline: bottom-left) ---------- */
+.map-legend-stack {
+  position: absolute;
+  left: 10px;
+  right: auto;
+  bottom: 125px;
+  top: auto;
+
+  z-index: 1350;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.map-legend-stack .map-legend {
+  position: static; /* critical: prevents absolute legend conflicts */
+}
+
+/* ---------- Ensure UI is clickable above the map ---------- */
+.map-controls,
+.map-info-box,
+.map-legend-stack,
+.map-legend {
+  pointer-events: auto;
+}
+
+/* ---------- Leaflet pane stacking (safe defaults) ---------- */
+.leaflet-overlay-pane { z-index: 300; }
+.leaflet-marker-pane  { z-index: 400; }
+.leaflet-tooltip-pane { z-index: 650; }
+.leaflet-popup-pane   { z-index: 700; }
+
+/* ===== Responsive tweak (<= 800px) ===== */
+@media (max-width: 800px) {
+  .map-info-box {
+    width: 210px;
+    right: 10px;
+  }
+
+  .map-controls {
+    right: 8px;
+    bottom: 8px;
+    gap: 6px;
+  }
+
+  .map-legend-stack {
+    left: 8px;
+    bottom: 110px;
+  }
+}
+
+/* ===== Tablet-only legend placement (601–768) ===== */
+@media (min-width: 601px) and (max-width: 768px) {
+  .map-legend-stack {
+    left: 8px;
+    right: auto;
+    bottom: 110px;
+    top: auto;
+  }
+}
+
+/* ======== Map Mobile adjustments (<= 600px) ======== */
+@media (max-width: 600px) {
+
+  /* Controls stacked bottom-left */
+  .map-controls {
+    left: 8px;
+    right: auto;
+    bottom: 8px;
+    top: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    z-index: 1400;
+  }
+
+  .map-controls .map-toggle-button {
+    padding: 6px 8px;
+    font-size: 10px;
+    border-radius: 8px;
+    width: auto;
+  }
+
+  .map-controls .obc-toggle label {
+    padding: 6px 8px;
+    font-size: 10px;
+    border-radius: 8px;
+    line-height: 1.2;
+  }
+
+  /* Legend stack pinned bottom-right */
+  .map-legend-stack {
+    right: 8px;
+    bottom: 8px;
+    left: auto;
+    top: auto;
+
+    z-index: 1350;
+    gap: 6px;
+
+    max-height: 160px;
+    overflow: auto;
+  }
+
+  .map-legend-stack .map-legend {
+    padding: 4px 6px;
+    border-radius: 10px;
+    font: 10px/12px Arial, Helvetica, sans-serif;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    max-width: 170px;
+  }
+
+  .map-legend .map-legend-row { margin: 2px 0; }
+  .map-legend .swatch { width: 12px; height: 12px; margin-right: 6px; }
+
+  /* InfoBox (mobile) */
+  .map-info-box {
+    top: calc(var(--header-h, 120px));
+    right: 8px;
+    left: auto;
+    bottom: auto;
+
+    width: min(92%, 360px);
+    padding: 6px;
+    border-radius: 12px;
+    z-index: 1300;
+
+    max-height: calc(100vh - (var(--header-h, 120px) + 210px));
+    overflow: auto;
+    display: grid;
+    row-gap: 6px;
+  }
+
+  .map-info-box h4 {
+    font-size: 12px;
+    margin: 0 0 4px 0;
+    line-height: 1.15;
+  }
+
+  .map-info-box .panel-title {
+    margin-top: 6px;
+    margin-bottom: 4px;
+  }
+
+  /* Force 2 selectors per row */
+  .map-info-box .control-row {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    align-items: end;
+    font-size: 11px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .map-info-box .control-row > label {
+    display: grid;
+    min-width: 0;
+  }
+
+  .map-info-box select {
+    width: 100%;
+    font-size: 10px;
+    padding: 3px 5px;
+  }
+
+  /* Show/Hide button pinned to right */
+  .map-info-box .ib-toggle-queried {
+    grid-column: 2;
+    justify-self: end;
+    align-self: end;
+    margin-left: 15px;
+    padding: 2px 4px;
+    font-size: 10px;
+    border-radius: 8px;
+  }
+
+  .map-info-box .ib-table-wrap {
+    max-height: 220px;
+  }
+}
+
+/* ---------- InfoBox table ---------- */
+.map-info-box .ib-table-wrap {
+  max-height: 320px;
+  overflow: auto;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.map-info-box table.ib-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 12px;
+}
+
+.map-info-box .ib-table thead th {
+  position: sticky;
+  top: 0;
+  background: #fafafa;
+  z-index: 1;
+  text-align: left;
+  padding: 6px 8px;
+  border-bottom: 1px solid #eaeaea;
+  white-space: nowrap;
+}
+
+.map-info-box .ib-table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid #f2f2f2;
+  vertical-align: top;
+}
+
+
+/* ===================== Sentiment Page ===================== */
+.sentiment-page {
+  max-width: 1200px;
+  margin: 24px auto 48px;
+  padding: 0 16px;
+}
+
+/* Sticky toolbar: title + breadcrumbs + filters */
+.sent-toolbar {
+  position: sticky;
+  top: calc(var(--header-h, 120px));
+  z-index: 1200;
+  background: #ffffffcc;
+  backdrop-filter: blur(6px);
+  border: 1px solid #eaeaea;
+  border-radius: 14px;
+  padding: 12px 16px;
+  margin: 0 0 16px 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+}
+
+.sent-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #0a2a1f;
+  margin: 0;
+}
+
+.sent-breadcrumbs {
+  font-size: .95rem;
+  color: #555;
+}
+
+.sent-breadcrumbs a {
+  color: #0a2a1f;
+  text-decoration: none;
+}
+
+.sent-breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+.sent-filters {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  justify-self: end;
+}
+
+.sent-filters select,
+.sent-filters button {
+  padding: 8px 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #fff;
+  color: #0a2a1f;
+  cursor: pointer;
+}
+
+.sent-filters button:hover {
+  filter: brightness(.97);
+}
+
+/* Responsive image grid (collections or images) */
+.sent-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+/* Card */
+.sent-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .06);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.sent-thumb {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.sent-caption {
+  padding: 10px 12px;
+  display: grid;
+  gap: 6px;
+}
+
+.sent-name {
+  font-weight: 700;
+  color: #0a2a1f;
+}
+
+.sent-meta {
+  font-size: .9rem;
+  color: #666;
+}
+
+/* Hover affordance */
+.sent-card:hover {
+  transform: translateY(-1px);
+  transition: transform .15s ease;
+}
+
+.sent-card:hover .sent-name {
+  text-decoration: underline;
+}
+
+.sent-card.is-active {
+  border-color: #04A264;
+  box-shadow: 0 0 0 3px rgba(4, 162, 100, .15);
+}
+
+/* Optional: caption rows with small badges */
+.sent-badges {
+  display: inline-flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.sent-badge {
+  font-size: .75rem;
+  padding: 2px 6px;
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+  background: #f8fafc;
+  color: #0a2a1f;
+}
+
+/* Modal lightbox (optional, CSS-only with :target) */
+.sent-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, .55);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 3000;
+}
+
+.sent-modal img {
+  max-width: 92vw;
+  max-height: 86vh;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.sent-modal:target {
+  display: flex;
+}
+
+.sent-modal .close {
+  position: fixed;
+  top: 18px;
+  right: 22px;
+  background: #fff;
+  color: #0a2a1f;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 6px 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Mobile tweaks */
+@media (max-width: 900px) {
+  .sent-toolbar {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .sent-filters {
+    justify-self: start;
+  }
+}
+
+/* Shared "card" look for all sections */
+[class^="Section"] {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .06);
+  padding: 24px;
+  margin: 24px auto;
+  max-width: 1100px;
+}
+
+/* Basic typography inside sections */
+[class^="Section"] h1,
+[class^="Section"] h2 {
+  color: #0a2a1f;
+  line-height: 1.25;
+  margin-bottom: 10px;
+}
+
+[class^="Section"] h1 {
+  font-size: 2rem;
+}
+
+[class^="Section"] h2 {
+  font-size: 1.5rem;
+}
+
+[class^="Section"] p {
+  margin: 10px 0;
+  color: #333;
+}
+
+[class^="Section"] a {
+  color: #0a2a1f;
+  text-decoration: none;
+  border-bottom: 1px dashed #0a2a1f;
+}
+
+[class^="Section"] a:hover {
+  text-decoration: underline;
+}
+
+[class^="Section"] img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Make lone <li> elements behave like bullets even outside a <ul> */
+[class^="Section"] li {
+  list-style: disc;
+  list-style-position: inside;
+  margin: 6px 0 6px 0.75rem;
+  color: #333;
+}
+
+/* Long links don't explode the layout */
+[class^="Section"] a {
+  word-break: break-word;
+}
+
+/* ---------- Section 1: Hero (text left, image right) ---------- */
+.Section1 {
+  display: grid;
+  gap: 20px;
+  align-items: center;
+}
+
+/* ---------- Section 2: Overall Sentiment ---------- */
+.Section2 img {
+  margin: 12px 0;
+}
+
+/* Tidy the single source link */
+.Section2 a {
+  display: inline-block;
+  margin: 6px 0 12px;
+}
+
+/* ---------- Section 3: Subjectivity (text left, image right) ---------- */
+.Section3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.Section3 h2,
+.Section3 p {
+  grid-column: 1;
+}
+
+.Section3 img {
+  grid-column: 2;
+}
+
+/* ---------- Section 4: Topics of Discussion ---------- */
+.Section4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.Section4 h2,
+.Section4 p,
+.Section4 li,
+.Section4 a {
+  grid-column: 1 / -1;
+}
+
+.Section4 img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+/* ---------- Section 5: Emotions around the Themes ---------- */
+.Section5 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+}
+
+.Section5 h2,
+.Section5 p,
+.Section5 li,
+.Section5 a {
+  grid-column: 1 / -1;
+}
+
+.Section5 img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+/* ---------- Section 6: Why it Matters ---------- */
+.Section6 p {
+  line-height: 1.7;
+}
+
+.Section2 p:first-of-type,
+.Section3 p:first-of-type,
+.Section6 p:first-of-type {
+  margin-top: 6px;
+}
+
+.Section2 p:last-of-type,
+.Section6 p:last-of-type {
+  margin-bottom: 6px;
+}
+
+/* Mobile tweaks */
+@media (max-width: 900px) {
+
+  .Section1,
+  .Section3 {
+    grid-template-columns: 1fr;
+  }
+
+  .Section1 img,
+  .Section3 img {
+    grid-column: 1;
+    margin-top: 8px;
+  }
+}
+
+/* details-based accordion to replace JS toggles */
+.faq-item {
+  border-radius: 8px;
+}
+
+.faq-item summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Keep your existing look: clickable h3 bar */
+.faq-item summary h3 {
+  font-size: 20px;
+  color: #0a2a1f;
+  padding: 10px;
+  background: #f1f1f1;
+  border-radius: 5px;
+  transition: color .2s ease;
+}
+
+.faq-item[open] summary h3 {
+  color: #04A264;
+}
+
+.faq-item p,
+.faq-item ul {
+  margin: 10px 0;
+}
+
+/* link list formatting inside resources */
+.link-list {
+  margin: 6px 0 6px 1rem;
+  padding: 0;
+}
+
+.link-list li {
+  margin: 6px 0;
+}
+
+.link-list a {
+  color: #0a2a1f;
+  text-decoration: none;
+  border-bottom: 1px dashed #0a2a1f;
+}
+
+.link-list a:hover {
+  text-decoration: underline;
+}
