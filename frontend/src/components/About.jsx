@@ -6,9 +6,9 @@ function About() {
 
   const sections = [
     {
-      title: "Sarahana Shrestha: Earth and Environmental Studies, Montclair State",
+      title: "Sarahana Shrestha: Earth and Environmental Studies, Montclair State University",
       content:
-        "University Graduate researcher and co-developer leading the analysis and development of the NJ EQUIP Portal. (shresthas1@montclair.edu)"
+        "University Graduate researcher and co-developer leading the analysis and development of the NJ EQUIP Portal. shresthas1@montclair.edu (0000-0002-9829-9607)"
     },
     {
       title: "Andrew Taggart: Data Science Masters Student, Montclair State University",
@@ -16,9 +16,9 @@ function About() {
         "Lead Web developer ensuring the portal is technically robust, accessible, and responsive to user needs, responsible for technical architecture, coding, and deployment. (taggarta2@montclair.edu)"
     },
     {
-      title: "Dr Aparna Varde: School of Computing, Montclair State University ",
+      title: "Dr Aparna S. Varde: Faculty of Engineering, University of Southern Denmark",
       content:
-        "Faculty advisor providing guidance on research design, data sources, and the broader vision for advancing energy equity in New Jersey. (vardea@montclair.edu)"
+        "Faculty advisor providing guidance on research design, data sources, and the broader vision for advancing energy equity in New Jersey. apva@mmmi.sdu.dk (0000-0002-3170-2510)"
     },
     {
       title: "Our Team",
